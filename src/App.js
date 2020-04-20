@@ -1,13 +1,13 @@
 import React from 'react';
-import Menu from './components/js/Menu';
-import Social from './components/js/Social';
-import Home from './components/js/Home';
-import Picture from './components/js/Picture';
-import Projets from './components/js/Projets';
-import Formations from './components/js/Formations';
-import Whoami from './components/js/Whoami';
-import Contact from './components/js/Contact';
-import Footer from './components/js/Footer';
+import Menu from './components/structure/Menu';
+import Social from './components/structure/Social';
+import Home from './components/structure/Home';
+import Picture from './components/structure/Picture';
+import Projets from './components/structure/Projets';
+import Formations from './components/structure/Formations';
+import Whoami from './components/structure/Whoami';
+import Contact from './components/structure/Contact';
+import Footer from './components/structure/Footer';
 
 	// 
 

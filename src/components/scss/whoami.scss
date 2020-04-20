@@ -1,4 +1,26 @@
 .Whoami {
     background-color: var(--main-dark-color);
     min-height: 100vh;
+
+    .content {
+        width: 35vw !important;
+        margin-left: 34vw !important;
+        min-height: 40vh !important;
+        background-color: transparent;
+    }
+
+    img {
+        position: absolute;
+        // left: 20vw;
+        left: 20vw;
+        top: 8vh;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
 }
