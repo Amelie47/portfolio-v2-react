@@ -2,14 +2,35 @@
     // background-color: red;
     position: fixed;
     bottom: 7vh;
-    left: 3vw;
+    left: 2vw;
 
     ul {
         padding: 0;
 
         li {
             list-style: none;
-            padding-top: 29px;
+            padding: 14px 0;
+            position: relative;
+            width: fit-content;
+
+            &:before {
+                content: ' ';
+                width: 0%;
+                height: 1px;
+                position: absolute;
+                background: -webkit-linear-gradient(left, rgba(242,75,89,1) 0%, rgba(242,230,206,1) 100%);
+                left: -20%;
+                z-index: -1;
+                transition: all ease-in-out 0.3s;
+                top: 50%;
+            }
+
+            &:hover {
+                cursor: pointer;
+                &:before {
+                    width: 140%;
+                }
+            }
         }
     }
 }

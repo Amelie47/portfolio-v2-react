@@ -1,6 +1,6 @@
-@for $i from 10 through 80 { 
+@for $i from 1 through 800 { 
     .Line-#{$i} {
-      height: 10px * $i;
+      height: 1px * $i;
     }
 }
 

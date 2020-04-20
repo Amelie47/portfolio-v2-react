@@ -20,8 +20,7 @@ function Home() {
           </ul>
         </div>
       </div>
-      <Line h="50" right="60-vw" top="0-vh"></Line>
-      {/* <Picture name="mountain" h="100"></Picture> */}
+      <Line h="500" right="60-vw" top="0-vh"></Line>
     </div>
   );
 }
