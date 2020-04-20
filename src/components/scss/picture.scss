@@ -1,0 +1,37 @@
+$images: (
+    "mountain": "../../ressources/images/mountain.png",
+    "paper-triangles": "../../ressources/images/pattern6.png",
+    "wood" : "../../ressources/images/pattern4.png",
+    "paper-square": "../../ressources/images/pattern8.png",
+    "geometric" : "../../ressources/images/pattern7.png",
+    "wall" : "../../ressources/images/pattern9.png",
+);
+
+@each $name, $url in $images {
+  .Picture-#{$name} {
+    background: url($url);
+  }
+}
+
+@for $i from 20 to 300 {
+    .Picture-#{$i} {
+        min-height: 1vh * $i;
+    }
+}
+
+.Picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    background-attachment: fixed;
+
+    overflow: hidden;
+}
+
+$positions: (top,bottom,center);
+@each $pos in $positions {
+  .Picture-#{$pos} {
+    background-position: $pos;
+  }
+}

@@ -1,0 +1,16 @@
+.Social {
+    position: fixed;
+    bottom: 0;
+    right: 3vw;
+    z-index: 3;
+
+    ul {
+        padding: 0;
+        display: flex;
+
+        li {
+            list-style: none;
+            padding: 0 1vw;
+        }
+    }
+}

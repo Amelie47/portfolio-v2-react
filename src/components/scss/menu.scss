@@ -1,0 +1,15 @@
+.Menu {
+    // background-color: red;
+    position: fixed;
+    bottom: 7vh;
+    left: 3vw;
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+            padding-top: 29px;
+        }
+    }
+}

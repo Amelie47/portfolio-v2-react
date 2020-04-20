@@ -1,0 +1,35 @@
+@for $i from 0 through 100 { 
+    .left-#{$i}-vw {
+      left: 1vw * $i;
+    }
+
+    .right-#{$i}-vw {
+        right: 1vw * $i;
+    }
+
+    .top-#{$i}-vh {
+        top: 1vh * $i;
+    }
+
+    .bottom-#{$i}-vh {
+        bottom: 1vh * $i;
+    }
+}
+
+@for $i from 10 through 50 { 
+    .left-#{$i}-px {
+      left: 10px * $i;
+    }
+
+    .right-#{$i}-px {
+        right: 10px * $i;
+    }
+
+    .top-#{$i}-px {
+        top: 10px * $i;
+    }
+
+    .bottom-#{$i}-px {
+        bottom: 10px * $i;
+    }
+}
