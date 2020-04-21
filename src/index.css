@@ -28,6 +28,7 @@
 
 html {
   overflow-x: hidden;
+  cursor: crosshair;
 }
 
 body {
@@ -61,12 +62,13 @@ h1 {
   top: -11vh;
   left: -15vh;
   opacity: 0.4;
-
+  cursor: crosshair;
 }
 
 h1 {
   position: relative;
   width: fit-content;
+  cursor: crosshair;
 }
 
 .content {
@@ -82,18 +84,12 @@ h1 {
   width: 10px;
 }
 
-/* ::-webkit-scrollbar-track-piece {
-  background: var(--main-light-color); 
-} */
-
 ::-webkit-scrollbar-thumb {
   background: var(--main-pinky-color); 
-  border-radius: 10px;
   border-right: #F24B59 solid 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  /* background: var(--main-pink-color);  */
   background: var(--main-cold-color);
   border-right: #A69897 solid 3px;
 }

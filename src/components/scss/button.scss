@@ -1,0 +1,24 @@
+$rotations: (
+    "droite": -90,
+    "gauche": 90,
+    "haut" : 180,
+    "bas": 0
+);
+
+@each $name, $deg in $rotations {
+  .Button-rotate-#{$name} {
+    transform: rotate(1deg * $deg);
+  }
+}
+
+.Button {
+    position: absolute;
+    bottom: 15vh;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}

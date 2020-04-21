@@ -3,6 +3,7 @@ import Line from './Line';
 import '../scss/home.scss';
 import '../scss/element.scss';
 import '../js/home';
+import Button from './Button';
 
 function Home() {
   return (
@@ -21,7 +22,8 @@ function Home() {
           </ul>
         </div>
       </div>
-      <Line h="500" right="60-vw" top="0-vh"></Line>
+      <Line h="500" right="60-vw" top="0-vh" name="toDisplayNone"></Line>
+      <Button></Button>
     </div>
   );
 }

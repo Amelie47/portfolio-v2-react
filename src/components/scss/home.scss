@@ -27,11 +27,28 @@
             }
         }
     }
+
+    .Button {
+        display: none;
+    }
 }
 
 
-@media (min-width: var(--breakpoint-min-regular-devices)) and (max-width: var(--breakpoint-min-large-devices)) {
+$--breakpoint-min-small-devices: 600px;
+$--breakpoint-min-medium-devices: 768px;
+$--breakpoint-min-regular-devices: 992px;
+$--breakpoint-min-large-devices: 1200px;
+
+@media screen and (max-width: $--breakpoint-min-small-devices) {
     .Home {
-        background-color: green;
+
+        #toDisplayNone {
+            display: none;
+        }
+
+        .Button {
+            display: block;
+        }
+      
     }
 }

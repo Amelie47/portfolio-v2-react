@@ -8,8 +8,7 @@ import Formations from './components/structure/Formations';
 import Whoami from './components/structure/Whoami';
 import Contact from './components/structure/Contact';
 import Footer from './components/structure/Footer';
-
-	// 
+import Langues from './components/structure/Langues';
 
 function App() {
   return (
@@ -17,6 +16,7 @@ function App() {
       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></meta>
 	     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></meta>
 	     <meta name="HandheldFriendly" content="true"></meta>
+       <Langues></Langues>
       <Menu></Menu>
       <Social></Social>
       <Home></Home>
