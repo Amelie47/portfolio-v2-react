@@ -4,7 +4,7 @@ import Line from './Line';
 
 function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact section">
         <div className="relative left-15-vw top-20-vh">
         <p className="overline">_Gardons_le_contact</p>
         <h1>Contact</h1>

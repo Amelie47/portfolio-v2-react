@@ -13,3 +13,14 @@
         }
     }
 }
+
+$--breakpoint-min-small-devices: 600px;
+$--breakpoint-min-medium-devices: 768px;
+$--breakpoint-min-regular-devices: 992px;
+$--breakpoint-min-large-devices: 1200px;
+
+@media screen and (max-width: $--breakpoint-min-small-devices) {
+    .Social {
+      display: none;
+    }
+}

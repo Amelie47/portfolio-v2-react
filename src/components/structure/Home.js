@@ -4,6 +4,7 @@ import '../scss/home.scss';
 import '../scss/element.scss';
 import '../js/home';
 import Button from './Button';
+import Logo from './Logo';
 
 function Home() {
   return (
@@ -23,7 +24,8 @@ function Home() {
         </div>
       </div>
       <Line h="500" right="60-vw" top="0-vh" name="toDisplayNone"></Line>
-      <Button></Button>
+      <Button anime="slide-top"></Button>
+      <Logo></Logo>
     </div>
   );
 }

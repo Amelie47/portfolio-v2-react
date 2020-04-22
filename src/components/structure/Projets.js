@@ -4,7 +4,7 @@ import Line from './Line';
 
 function Projets() {
   return (
-    <div className="Projets">
+    <div className="Projets section">
         <div className="relative left-15-vw top-20-vh">
         <p className="overline">_Créativité</p>
         <h1>Projets</h1>

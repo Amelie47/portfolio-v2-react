@@ -41,9 +41,20 @@ $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
     .Home {
+        padding-top: 14vh;
 
         #toDisplayNone {
             display: none;
+        }
+
+        .Logo {
+            left: 50vw;
+            position: absolute;
+
+            img {
+                height: 100px;
+                transform: translate(-50%, 0px);
+            }
         }
 
         .Button {
@@ -52,3 +63,6 @@ $--breakpoint-min-large-devices: 1200px;
       
     }
 }
+
+
+  

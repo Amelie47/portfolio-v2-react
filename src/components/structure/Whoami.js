@@ -5,7 +5,7 @@ import portrait from '../../ressources/images/portrait.png';
 
 function Whoami() {
   return (
-    <div className="Whoami">
+    <div className="Whoami section">
       <Line h="230" right="50-vw"></Line>
       <div className="relative left-15-vw top-20-vh">
         <p className="overline">_I_Am_...</p>
