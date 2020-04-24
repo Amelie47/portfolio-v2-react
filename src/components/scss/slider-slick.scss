@@ -1,0 +1,43 @@
+.slick-arrow {
+    background: url('../../ressources/images/button_without_border.png') center center no-repeat!important;
+    background-size: cover !important;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: all ease-in-out 0.2s;
+}
+
+.slick-next {
+    transform: rotate(-90deg);
+    right: -50px;
+    box-shadow: -4px -4px 5px 0px rgba(0,0,0,0.75);
+
+    &:hover {
+        box-shadow: -1px -1px 3px 0px rgba(0,0,0,0.75);
+    }
+  
+    &::before {
+      display: none;
+    }
+}
+  
+.slick-prev {
+    transform: rotate(90deg);
+    left: -50px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+
+    &:hover {
+        box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+    }
+  
+    &::before {
+      display: none;
+    }
+}
+
+.slick-slider {
+    position: initial;
+}
+.slick-list {
+    height: 100%;
+}

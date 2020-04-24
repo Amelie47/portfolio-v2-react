@@ -25,7 +25,7 @@
             }
 
             &:hover {
-                cursor: pointer;
+                cursor: crosshair;
                 &:before {
                     width: 140%;
                 }
@@ -42,5 +42,11 @@ $--breakpoint-min-large-devices: 1200px;
 @media screen and (max-width: $--breakpoint-min-small-devices) {
     .Menu {
       display: none;
+    }
+}
+
+@media screen and (max-width: $--breakpoint-min-medium-devices) {
+    .Menu {
+        left: 1vw;
     }
 }

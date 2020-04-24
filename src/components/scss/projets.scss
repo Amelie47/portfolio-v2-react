@@ -1,3 +1,39 @@
 .Projets {
     background-color: var(--main-dark-color);
 }
+
+$--breakpoint-min-small-devices: 600px;
+$--breakpoint-min-medium-devices: 768px;
+$--breakpoint-min-regular-devices: 992px;
+$--breakpoint-min-large-devices: 1200px;
+
+@media screen and (max-width: $--breakpoint-min-small-devices) {
+    .Projets {
+
+        .overline {
+            font-size: 30pt !important;
+            font-weight: bolder;
+            top: -4vh !important;
+            left: -5vh !important;
+            -webkit-text-fill-color: rgba(242, 121, 121, 0.3);
+            -webkit-text-stroke-color: rgba(242, 121, 121, 0.3);
+            -webkit-text-stroke-width: 0px;
+        }
+
+        .principal_content {
+            top: 7vh;
+        }
+
+        .content {
+            min-height: 70vh;
+            width: 100vw;
+            margin-left: 0;
+            margin-top: 8vh;
+            transform: translate(-15vw, 0px);
+        }
+
+        .Line {
+            display: none;
+        }
+    }
+}

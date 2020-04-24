@@ -23,7 +23,7 @@ function Home() {
           </ul>
         </div>
       </div>
-      <Line h="500" right="60-vw" top="0-vh" name="toDisplayNone"></Line>
+      <Line h="50" right="60-vw" top="0-vh" name="toDisplayNone"></Line>
       <Button anime="slide-top"></Button>
       <Logo></Logo>
     </div>

@@ -5,7 +5,7 @@ function Langues() {
   return (
     <div className="Langues">
         <ul>
-            <li>FR</li>
+            <li className="active">FR</li>
             <li>EN</li>
             <li>IT</li>
         </ul>
