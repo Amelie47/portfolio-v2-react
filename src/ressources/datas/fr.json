@@ -1,0 +1,80 @@
+{
+    "menu": [
+        {"name":"projets"},
+        {"name":"formations"},
+        {"name":"whoami"},
+        {"name":"contact"}
+    ],
+    "social": [
+        {
+            "id":0,
+            "name":"Github",
+            "url":"https://github.com/Amelie47",
+            "image_id":2
+        },
+        {
+            "id":1,
+            "name":"Linkedin",
+            "url":"https://www.google.com",
+            "image_id":1
+        }
+    ],
+    "home": [
+        {"name":"Développeuse web"},
+        {"name":"Alternante"},
+        {"name":"Ecole des gobelins"},
+        {"name":"Annecy"}
+    ],
+    "projects": [
+        {
+            "id":0,
+            "name":"Luma",
+            "description":"c'est le projet luma",
+            "date":"2020",
+            "image_id":3,
+            "techno": [
+                {"name":"#kotlin"},
+                {"name":"#firebase"},
+                {"name":"#figma"}
+            ]
+        },
+        {
+            "id":1,
+            "name":"Gabi",
+            "description":"c'est le projet gabi",
+            "date":"2019",
+            "image_id":3,
+            "techno": [
+                {"name":"#scss"},
+                {"name":"#javascript"},
+                {"name":"#html"}
+            ]
+        },
+        {
+            "id":2,
+            "name":"Alix",
+            "description":"c'est le projet alix",
+            "date":"2019-2020",
+            "image_id":3,
+            "techno": [
+                {"name":"#laravel"},
+                {"name":"#php"},
+                {"name":"#sql"},
+                {"name":"#bootstrap"}
+            ]
+        },
+        {
+            "id":3,
+            "name":"Snated",
+            "description":"c'est le projet snated",
+            "date":"2020",
+            "image_id":3,
+            "techno": [
+                {"name":"#laravel"},
+                {"name":"#php"},
+                {"name":"#sql"},
+                {"name":"#bootstrap"}
+            ]
+        }
+    ]
+}

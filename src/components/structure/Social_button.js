@@ -1,16 +1,19 @@
 import React from 'react';
-import '../scss/social_button.scss';
 import Line from './Line';
+import Images from '../../ressources/images/images';
 
-function SocialButton({text,href,img}) {
+import '../scss/social_button.scss';
+
+
+function SocialButton({object,id}) {
   return (
     <div className="SocialButton">
-        <a href={href} target='blank'>
+        <a href={object[id].url} target='blank'>
             <span className="circle"></span>
             <Line h="25"></Line>
-            <img src={img}/>
+            <img src={Images.find(x => x.id === object[id].image_id).src}/>
         </a>
-        <p className="text">{text}</p>
+        <p className="text">{object[id].name}</p>
     </div>
   );
 }

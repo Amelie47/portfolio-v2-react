@@ -9,6 +9,25 @@
     }
 }
 
+.slick-dots {
+    li {
+        width: auto;
+    }
+
+    .slick-active:after {
+        content: ' ';
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        background-color: var(--main-pink-color);
+        border-radius: 50%;
+        bottom: -15px;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        transition: all ease-in-out 0.2s;
+    }
+}
+
 .slick-list {
     height: 100%;
 }

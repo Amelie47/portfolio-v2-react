@@ -1,10 +1,13 @@
 import React from 'react';
 import Line from './Line';
+import Button from './Button';
+import Logo from './Logo';
+
 import '../scss/home.scss';
 import '../scss/element.scss';
 import '../js/home';
-import Button from './Button';
-import Logo from './Logo';
+
+import datas from '../../ressources/datas/fr.json';
 
 function Home() {
   return (
@@ -16,10 +19,7 @@ function Home() {
         <div className="presentation">
           <ul>
             <li>Amélie Mouillac</li>
-            <li>Développeuse web</li>
-            <li>Alternante</li>
-            <li>Ecole des Gobelins</li>
-            <li>Annecy</li>
+            {Object.keys(datas.home).map((v,i) => <li>{datas.home[i].name}</li> )}
           </ul>
         </div>
       </div>

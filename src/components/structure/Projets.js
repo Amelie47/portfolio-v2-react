@@ -1,17 +1,30 @@
 import React from 'react';
-import '../scss/projets.scss';
 import Line from './Line';
 import Slider from "react-slick";
+import Slide from './Slide';
+
+import '../scss/projets.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../scss/slider-slick.scss";
 
+import datas from '../../ressources/datas/fr.json';
+
 const Projets = () => {
   var settings = {
-    dots: false,
+    dots: true,
+    dotsClass: "slick-dots",
     infinite: true,
-    swipeToSlide: true
+    swipeToSlide: true,
+    customPaging: function(i) {
+      return (
+        <a>
+          {datas.projects[i].name}
+        </a>
+      );
+    }
   };
+  
   return (
     <div className="Projets section">
       <div className="principal_content relative left-15-vw top-20-vh">
@@ -19,26 +32,8 @@ const Projets = () => {
         <h1>Projets</h1>
         <Line></Line>
         <div className="content">
-          {/* CONTENU */}
           <Slider {...settings}>
-            <div>
-              <h3>1</h3>
-            </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
+            {Object.keys(datas.projects).map((v, i) => <Slide object={datas.projects} id={i}></Slide> )}
           </Slider>
         </div>
       </div>

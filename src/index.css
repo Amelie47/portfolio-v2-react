@@ -9,6 +9,7 @@
   --main-cold-color: #96D9D9;
 
   --height-content: 55vh;
+  --width-content: 64vw;
  
   --breakpoint-min-small-devices: 600px;
   --breakpoint-min-medium-devices: 768px;
@@ -73,10 +74,10 @@ h1 {
 }
 
 .content {
-  background-color: rgba(255,255,255,0.2);
+  /* background-color: rgba(255,255,255,0.2); */
   min-height: var(--height-content);
-  width: 55vw;
-  margin-left: 19vw;
+  width: var(--width-content);
+  margin-left: 10vw;
   margin-top: 8vh;
   position: relative;
 }

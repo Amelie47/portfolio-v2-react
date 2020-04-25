@@ -2,15 +2,13 @@ import React from 'react';
 import '../scss/social.scss';
 import SocialButton from './Social_button';
 
-import github from '../../ressources/images/github.png';
-import linkedin from '../../ressources/images/linkedin.png';
+import datas from '../../ressources/datas/fr.json';
 
 function Social() {
   return (
     <div className="Social">
       <ul>
-        <li><SocialButton text="Github" href="https://github.com/Amelie47" img={github}></SocialButton></li>
-        <li><SocialButton text="Linkedin" href="https://www.google.com" img={linkedin}></SocialButton></li>
+        {Object.keys(datas.social).map((v, i) => <li><SocialButton object={datas.social} id={i}></SocialButton></li> )}
       </ul>
     </div>
   );
