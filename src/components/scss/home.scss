@@ -29,6 +29,11 @@
     }
 
     .Button {
+        position: absolute;
+        bottom: 8vh;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        
         display: none;
     }
 }

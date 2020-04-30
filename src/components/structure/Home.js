@@ -1,7 +1,6 @@
 import React from 'react';
 import Line from './Line';
 import Button from './Button';
-import Logo from './Logo';
 
 import '../scss/home.scss';
 import '../scss/element.scss';
@@ -25,7 +24,6 @@ function Home() {
       </div>
       <Line h="50" right="60-vw" top="0-vh" name="toDisplayNone"></Line>
       <Button anime="slide-top"></Button>
-      <Logo></Logo>
     </div>
   );
 }

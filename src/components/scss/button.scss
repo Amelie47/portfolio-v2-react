@@ -12,15 +12,15 @@ $rotations: (
 }
 
 .Button {
-    position: absolute;
-    bottom: 8vh;
-    left: 50%;
-    transform: translate(-50%, 0px);
-
     img {
         height: 50px;
         width: 50px;
+        border-radius: 50%;
     }
+}
+
+.Button-shadow-true {
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
 .Button-slide-top {

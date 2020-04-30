@@ -61,7 +61,7 @@ $--breakpoint-min-large-devices: 1200px;
         }
 
         .principal_content {
-            top: 7vh;
+            top: 12vh;
         }
 
         img {
@@ -74,20 +74,20 @@ $--breakpoint-min-large-devices: 1200px;
 
         .content {
             background-color: var(--main-dark-color);
-            position: relative;
+            position: absolute;
             width: 80vw !important;
             margin: 10vw !important;
             min-height: fit-content !important;
             max-height: 90vh;
             transform: translate(-15vw, 0px);
-            top: 70vh;
+            top: 150vh;
             border-top: 1px solid white;
             z-index: 2;
         }
 
         .Line {
-            height: 100vh;
-            top: 50vh;
+            height: 104vh;
+            top: 54vh;
         }
 
         #toDisplayNone {

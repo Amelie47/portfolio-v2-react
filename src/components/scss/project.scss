@@ -1,0 +1,40 @@
+.Project {
+    background-color: var(--main-dark-color);
+    min-height: 100vh;
+
+    .test {
+        height: 50px;
+        width: 50px;
+    }
+
+    h1 {
+        position: fixed;
+        top: 11vh;
+        left: 3vw;
+        font-size: 15pt;
+
+        &:after {
+            content: ' ';
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            background-color: var(--main-pink-color);
+            border-radius: 50%;
+            top: 50%;
+            margin-left: 10px;
+            transform: translate(0px, -50%);
+            transition: all ease-in-out 0.2s;
+        }
+    }
+
+    .Button {
+        position: fixed;
+        top: 16vh;
+        left: 3vw;
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}

@@ -27,54 +27,91 @@
     ],
     "projects": [
         {
-            "id":0,
+            "id":"0",
             "name":"Luma",
             "description":"c'est le projet luma",
             "date":"2020",
-            "image_id":3,
+            "images": {
+                "slide": 3,
+                "title": 4
+            },
             "techno": [
                 {"name":"#kotlin"},
                 {"name":"#firebase"},
                 {"name":"#figma"}
-            ]
+            ],
+            "couleurs": {
+                "primaire": "#6EFF76",
+                "secondaire": "#693BFF",
+                "tertiaire": "#FFA454"
+            }
         },
         {
-            "id":1,
+            "id":"1",
             "name":"Gabi",
             "description":"c'est le projet gabi",
             "date":"2019",
-            "image_id":3,
+            "images": {
+                "slide": 3,
+                "title": 4
+            },
             "techno": [
                 {"name":"#scss"},
                 {"name":"#javascript"},
                 {"name":"#html"}
+            ],
+            "couleurs": {
+                "primaire": "#FFAB33",
+                "secondaire": "#FE705C",
+                "tertiaire": "#F8F3EC"
+            },
+            "bandeau": [
+                {"name":"DeveloppementWeb"},
+                {"name":"Maquettes"},
+                {"name":"TravailDEquipe"}
             ]
         },
         {
-            "id":2,
+            "id":"2",
             "name":"Alix",
             "description":"c'est le projet alix",
             "date":"2019-2020",
-            "image_id":3,
+            "images": {
+                "slide": 3,
+                "title": 4
+            },
             "techno": [
                 {"name":"#laravel"},
                 {"name":"#php"},
                 {"name":"#sql"},
                 {"name":"#bootstrap"}
-            ]
+            ],
+            "couleurs": {
+                "primaire": "#6EFF76",
+                "secondaire": "#693BFF",
+                "tertiaire": "#FFA454"
+            }
         },
         {
-            "id":3,
+            "id":"3",
             "name":"Snated",
             "description":"c'est le projet snated",
             "date":"2020",
-            "image_id":3,
+            "images": {
+                "slide": 3,
+                "title": 4
+            },
             "techno": [
                 {"name":"#laravel"},
                 {"name":"#php"},
                 {"name":"#sql"},
                 {"name":"#bootstrap"}
-            ]
+            ],
+            "couleurs": {
+                "primaire": "#6EFF76",
+                "secondaire": "#693BFF",
+                "tertiaire": "#FFA454"
+            }
         }
     ]
 }
