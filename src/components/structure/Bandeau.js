@@ -19,12 +19,17 @@ function Bandeau({ id }) {
 
     return (
         <div className="Bandeau">
-            <ul  className="slide-right">
+            <ul className="slide-right">
                 {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
                 {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
                 {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
             </ul>
-            <ul  className="slide-left">
+            <ul className="slide-left">
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
+            </ul>
+            <ul className="slide-right">
                 {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
                 {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
                 {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}

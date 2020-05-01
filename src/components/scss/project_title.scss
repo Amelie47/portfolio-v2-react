@@ -1,43 +1,43 @@
 .ProjectTitle {
-    height: 50vh;
-    width: 33vw;
-    position: relative;
-    margin: auto;
-    transform: translate(0px, 50%);
+    height: 100vh;
 
-    z-index: 1;
+    .project-title-content {
+        height: 50vh;
+        width: 36vw;
+        position: relative;
+        margin: auto;
+        transform: translate(0px, 50%);
+        z-index: 1;
+    }
 
     .component {
-        position: absolute;
+        position: relative;
 
         &.date {
-            height: 20%;
+            // height: 20%;
 
             p {
-                position: absolute;
                 margin: 0;
-                bottom: 0;
             }
         }
 
         &.image {
-            top: 50%;
-            transform: translate(0, -50%);
-            height: fit-content;
-            max-height: 60%;
-            overflow: hidden;
+            // top: 50%;
+            // transform: translate(0, -50%);
+            // height: fit-content;
+            // max-height: 60%;
+            // overflow: hidden;
 
             img {
-                height: 100%;
                 width: 100%;
-                transform-origin: center center;
+                box-shadow: -9px 10px 10px 0px rgba(0,0,0,0.75);
             }
         }
 
         &.techno {
-            bottom: 0;
-            height: 20%;
-            right: 0;
+            // bottom: 0;
+            // height: 20%;
+            // right: 0;
 
             ul {
                 display: flex;
@@ -61,13 +61,29 @@ $--breakpoint-min-medium-devices: 768px;
 $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
+@media screen and (max-width: $--breakpoint-min-regular-devices) {
+    .ProjectTitle {
+        .project-title-content {
+            width: 60vw;
+        }
+    }
+}
+
 @media screen and (max-width: $--breakpoint-min-small-devices) {
     .ProjectTitle {
-        width: 100vw;
+        .project-title-content {
+            width: 100vw;
+        }
 
         .component {
             &.date p, &.techno ul {
-                padding: 0 3vw;
+                padding: 1vh 3vw;
+            }
+
+            &.image {
+                img {
+                    box-shadow: none;
+                }
             }
         }
     }

@@ -44,7 +44,12 @@
                 "primaire": "#6EFF76",
                 "secondaire": "#693BFF",
                 "tertiaire": "#FFA454"
-            }
+            },
+            "bandeau": [
+                {"name":"ADEFINIR"},
+                {"name":"ADEFINIR"},
+                {"name":"ADEFINIR"}
+            ]
         },
         {
             "id":"1",
@@ -90,7 +95,12 @@
                 "primaire": "#6EFF76",
                 "secondaire": "#693BFF",
                 "tertiaire": "#FFA454"
-            }
+            },
+            "bandeau": [
+                {"name":"ADEFINIR"},
+                {"name":"ADEFINIR"},
+                {"name":"ADEFINIR"}
+            ]
         },
         {
             "id":"3",
@@ -111,7 +121,12 @@
                 "primaire": "#6EFF76",
                 "secondaire": "#693BFF",
                 "tertiaire": "#FFA454"
-            }
+            },
+            "bandeau": [
+                {"name":"ADEFINIR"},
+                {"name":"ADEFINIR"},
+                {"name":"ADEFINIR"}
+            ]
         }
     ]
 }

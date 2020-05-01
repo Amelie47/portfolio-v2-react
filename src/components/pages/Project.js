@@ -4,7 +4,6 @@ import Logo from '../structure/Logo';
 import Social from '../structure/Social';
 import Button from '../structure/Button';
 import ProjectTitle from '../structure/Project_Title';
-import Bandeau from '../structure/Bandeau';
 
 import '../scss/project.scss';
 
@@ -34,7 +33,6 @@ function Project() {
             <Link to={`/`}><Button rotate="gauche" shadow="true"></Button></Link>
 
             <ProjectTitle project={project}></ProjectTitle>
-            <Bandeau id={id}></Bandeau>
         </div>
     );
 }
