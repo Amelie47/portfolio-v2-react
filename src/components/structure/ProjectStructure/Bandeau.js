@@ -1,8 +1,8 @@
 import React from 'react';
 
-import datas from '../../ressources/datas/fr.json';
+import datas from '../../../ressources/datas/fr.json';
 
-import '../scss/bandeau.scss';
+import '../../scss/ProjectStyles/bandeau.scss';
 
 
 function Bandeau({ id }) {

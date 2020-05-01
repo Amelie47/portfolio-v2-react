@@ -1,9 +1,9 @@
 import React from 'react';
-import Bandeau from '../structure/Bandeau';
+import Bandeau from './Bandeau';
 
-import '../scss/project_title.scss';
+import '../../scss/ProjectStyles/project_title.scss';
 
-import Images from '../../ressources/images/images';
+import Images from '../../../ressources/images/images';
 
 function ProjectTitle({ project }) {
 

@@ -1,0 +1,26 @@
+@for $i from 1 through 150 { 
+    .Citation-#{$i} {
+      width: 1vw * $i;
+    }
+}
+
+.Citation {
+    height: fit-content;
+    display: flex;
+
+    .titre {
+        width: 20%;
+        border-right: 1px solid rgba(255,255,255,0.5);
+        font-style: italic;
+        opacity: 0.5;
+    }
+
+    .paragraphe {
+        width: 80%;
+        padding-left: 3vw;
+
+        p {
+            margin: 0;
+        }
+    }
+}

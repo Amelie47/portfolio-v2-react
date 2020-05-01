@@ -3,9 +3,10 @@ import Langues from '../structure/Langues';
 import Logo from '../structure/Logo';
 import Social from '../structure/Social';
 import Button from '../structure/Button';
-import ProjectTitle from '../structure/Project_Title';
+import ProjectTitle from '../structure/ProjectStructure/Project_Title';
+import SectionResume from '../structure/ProjectStructure/Project_Section_Resume';
 
-import '../scss/project.scss';
+import '../scss/ProjectStyles/project.scss';
 
 import datas from '../../ressources/datas/fr.json';
 
@@ -33,6 +34,7 @@ function Project() {
             <Link to={`/`}><Button rotate="gauche" shadow="true"></Button></Link>
 
             <ProjectTitle project={project}></ProjectTitle>
+            <SectionResume project={project}></SectionResume>
         </div>
     );
 }
