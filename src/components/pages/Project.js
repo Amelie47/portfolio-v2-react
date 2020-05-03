@@ -5,6 +5,7 @@ import Social from '../structure/Social';
 import Button from '../structure/Button';
 import ProjectTitle from '../structure/ProjectStructure/Project_Title';
 import SectionResume from '../structure/ProjectStructure/Project_Section_Resume';
+import SectionScreens from '../structure/ProjectStructure/Project_Section_Screens';
 
 import '../scss/ProjectStyles/project.scss';
 
@@ -34,7 +35,8 @@ function Project() {
             <Link to={`/`}><Button rotate="gauche" shadow="true"></Button></Link>
 
             <ProjectTitle project={project}></ProjectTitle>
-            <SectionResume project={project}></SectionResume>
+            <SectionResume resume={project.content.resume}></SectionResume>
+            <SectionScreens></SectionScreens>
         </div>
     );
 }

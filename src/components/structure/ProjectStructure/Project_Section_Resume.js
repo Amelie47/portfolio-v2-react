@@ -2,10 +2,10 @@ import React from 'react';
 import '../../scss/ProjectStyles/section_resume.scss';
 import Citation from './Citation';
 
-function SectionResume({project}) {
+function SectionResume({resume}) {
     return (
         <div className="SectionResume">
-            <Citation titre="Résumé" para={project.resume} w="40"></Citation>
+            <Citation titre={resume.titre} para={resume.para} w="40"></Citation>
         </div>
     );
 }
