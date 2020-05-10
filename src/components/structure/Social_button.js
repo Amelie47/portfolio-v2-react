@@ -5,15 +5,15 @@ import Images from '../../ressources/images/images';
 import '../scss/social_button.scss';
 
 
-function SocialButton({object,id}) {
+function SocialButton({social,id}) {
   return (
     <div className="SocialButton">
-        <a href={object[id].url} target='blank'>
+        <a href={social.liens[id].url} target='blank'>
             <span className="circle"></span>
             <Line h="25"></Line>
-            <img src={Images.find(x => x.id === object[id].image_id).src}/>
+            <img src={Images.find(y => y.code === social.code + social.liens[id].image_id).src}/>
         </a>
-        <p className="text">{object[id].name}</p>
+        <p className="text">{social.liens[id].name}</p>
     </div>
   );
 }

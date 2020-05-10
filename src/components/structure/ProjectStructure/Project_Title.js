@@ -14,7 +14,7 @@ function ProjectTitle({ project }) {
                     <p>{project.date}</p>
                 </div>
                 <div className="component image">
-                    <img src={Images.find(x => x.id === project.images.title).src} />
+                    <img src={Images.find(x => x.code === project.images.code + project.images.title).src} />
                 </div>
                 <div className="component techno">
                     <ul>

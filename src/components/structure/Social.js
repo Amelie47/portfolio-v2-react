@@ -8,7 +8,7 @@ function Social() {
   return (
     <div className="Social">
       <ul>
-        {Object.keys(datas.social).map((v, i) => <li><SocialButton object={datas.social} id={i}></SocialButton></li> )}
+        {Object.keys(datas.social).map((v, i) => <li><SocialButton social={datas.social} id={i}></SocialButton></li> )}
       </ul>
     </div>
   );

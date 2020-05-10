@@ -13,20 +13,24 @@
             "name": "contact"
         }
     ],
-    "social": [
-        {
-            "id": 0,
-            "name": "Github",
-            "url": "https://github.com/Amelie47",
-            "image_id": 2
-        },
-        {
-            "id": 1,
-            "name": "Linkedin",
-            "url": "https://www.google.com",
-            "image_id": 1
-        }
-    ],
+    "social": {
+        "code" : "SO_",
+        "liens" :     
+        [
+            {
+                "id": 0,
+                "name": "Github",
+                "url": "https://github.com/Amelie47",
+                "image_id": 2
+            },
+            {
+                "id": 1,
+                "name": "Linkedin",
+                "url": "https://www.google.com",
+                "image_id": 1
+            }
+        ]
+    },
     "home": [
         {
             "name": "Développeuse web"
@@ -67,8 +71,9 @@
                 ]
             },
             "images": {
-                "slide": 5,
-                "title": 6
+                "code" : "LU_",
+                "slide": 1,
+                "title": 2
             },
             "techno": [
                 {
@@ -123,8 +128,9 @@
                 ]
             },
             "images": {
-                "slide": 3,
-                "title": 4
+                "code" : "GA_",
+                "slide": 1,
+                "title": 2
             },
             "techno": [
                 {
@@ -175,8 +181,9 @@
                 ]
             },
             "images": {
-                "slide": 7,
-                "title": 8
+                "code" : "AL_",
+                "slide": 1,
+                "title": 2
             },
             "techno": [
                 {
@@ -230,8 +237,9 @@
                 ]
             },
             "images": {
-                "slide": 9,
-                "title": 10
+                "code" : "SN_",
+                "slide": 1,
+                "title": 2
             },
             "techno": [
                 {
