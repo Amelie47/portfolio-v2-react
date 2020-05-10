@@ -50,7 +50,21 @@
                 "resume": {
                     "titre": "Résumé",
                     "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                }
+                },
+                "details" : [
+                    {
+                        "titre" : "Type",
+                        "detail" : "Projet scolaire"
+                    },
+                    {
+                        "titre" : "Equipe",
+                        "detail" : "2 designers, 2 développeurs"
+                    },
+                    {
+                        "titre" : "Rôle",
+                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                    }
+                ]
             },
             "images": {
                 "slide": 5,
@@ -92,7 +106,21 @@
                 "resume": {
                     "titre": "Résumé",
                     "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                }
+                },
+                "details" : [
+                    {
+                        "titre" : "Type",
+                        "detail" : "Projet scolaire"
+                    },
+                    {
+                        "titre" : "Equipe",
+                        "detail" : "3 designers, 2 développeurs"
+                    },
+                    {
+                        "titre" : "Rôle",
+                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                    }
+                ]
             },
             "images": {
                 "slide": 3,
@@ -134,11 +162,21 @@
                 "resume": {
                     "titre": "Résumé",
                     "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                }
+                },
+                "details" : [
+                    {
+                        "titre" : "Type",
+                        "detail" : "Projet professionnel"
+                    },
+                    {
+                        "titre" : "Rôle",
+                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                    }
+                ]
             },
             "images": {
-                "slide": 3,
-                "title": 4
+                "slide": 7,
+                "title": 8
             },
             "techno": [
                 {
@@ -155,19 +193,19 @@
                 }
             ],
             "couleurs": {
-                "primaire": "#6EFF76",
-                "secondaire": "#693BFF",
-                "tertiaire": "#FFA454"
+                "primaire": "#E8ECED",
+                "secondaire": "#00CAFF",
+                "tertiaire": "#FF543F"
             },
             "bandeau": [
                 {
-                    "name": "ADEFINIR"
+                    "name": "DeveloppementWeb"
                 },
                 {
-                    "name": "ADEFINIR"
+                    "name": "GestionDeProjet"
                 },
                 {
-                    "name": "ADEFINIR"
+                    "name": "RelationClient"
                 }
             ]
         },
@@ -179,11 +217,21 @@
                 "resume": {
                     "titre": "Résumé",
                     "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                }
+                },
+                "details" : [
+                    {
+                        "titre" : "Type",
+                        "detail" : "Projet professionnel"
+                    },
+                    {
+                        "titre" : "Rôle",
+                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                    }
+                ]
             },
             "images": {
-                "slide": 3,
-                "title": 4
+                "slide": 9,
+                "title": 10
             },
             "techno": [
                 {
@@ -200,19 +248,19 @@
                 }
             ],
             "couleurs": {
-                "primaire": "#6EFF76",
-                "secondaire": "#693BFF",
-                "tertiaire": "#FFA454"
+                "primaire": "#FF8E52",
+                "secondaire": "#E2000B",
+                "tertiaire": "#0095AD"
             },
             "bandeau": [
                 {
-                    "name": "ADEFINIR"
+                    "name": "DeveloppementWeb"
                 },
                 {
-                    "name": "ADEFINIR"
+                    "name": "Versionning"
                 },
                 {
-                    "name": "ADEFINIR"
+                    "name": "Documentation"
                 }
             ]
         }

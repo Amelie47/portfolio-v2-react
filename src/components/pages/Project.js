@@ -6,6 +6,7 @@ import Button from '../structure/Button';
 import ProjectTitle from '../structure/ProjectStructure/Project_Title';
 import SectionResume from '../structure/ProjectStructure/Project_Section_Resume';
 import SectionScreens from '../structure/ProjectStructure/Project_Section_Screens';
+import SectionDetails from '../structure/ProjectStructure/Project_Section_Details';
 
 import '../scss/ProjectStyles/project.scss';
 
@@ -37,6 +38,8 @@ function Project() {
             <ProjectTitle project={project}></ProjectTitle>
             <SectionResume resume={project.content.resume}></SectionResume>
             <SectionScreens></SectionScreens>
+            <SectionDetails details={project.content.details}></SectionDetails>
+
         </div>
     );
 }

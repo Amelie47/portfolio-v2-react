@@ -31,11 +31,16 @@
         position: fixed;
         top: 16vh;
         left: 3vw;
+        z-index: 1;
 
         img {
             height: 30px;
             width: 30px;
         }
+    }
+
+    .Langues, .Logo, .Social {
+        z-index: 1;
     }
 }
 
