@@ -1,7 +1,7 @@
 import React from 'react';
 import Line from './Line';
 import Slider from "react-slick";
-import Slide from './Slide';
+import ProjectSlide from './ProjectStructure/ProjectSlide';
 
 import '../scss/projets.scss';
 import "slick-carousel/slick/slick.css";
@@ -33,7 +33,7 @@ const Projets = () => {
         <Line></Line>
         <div className="content">
           <Slider {...settings}>
-            {Object.keys(datas.projects).map((v, i) => <Slide object={datas.projects} id={i}></Slide> )}
+            {Object.keys(datas.projects).map((v, i) => <ProjectSlide object={datas.projects} id={i}></ProjectSlide> )}
           </Slider>
         </div>
       </div>

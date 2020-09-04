@@ -1,17 +1,31 @@
 import React from 'react';
 import '../scss/formations.scss';
+
 import Line from './Line';
 import Slider from "react-slick";
+import FormationSlide from './FormationSlide';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../scss/slider-slick.scss";
 
+import datas from '../../ressources/datas/fr.json';
+
 function Formations() {
   var settings = {
-    dots: false,
+    dots: true,
+    dotsClass: "slick-dots",
     infinite: true,
-    swipeToSlide: true
+    swipeToSlide: true,
+    customPaging: function(i) {
+      return (
+        <a>
+          {datas.formations[i].acronym}
+        </a>
+      );
+    }
   };
+
   return (
     <div className="Formations section">
         <div className="principal_content relative left-15-vw top-20-vh">
@@ -21,24 +35,7 @@ function Formations() {
         <div className="content">
           {/* CONTENU */}
           <Slider {...settings}>
-            <div>
-              <h3>1</h3>
-            </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
+            {Object.keys(datas.formations).map((v, i) => <FormationSlide object={datas.formations} id={i}></FormationSlide> )}
           </Slider>
         </div>
         </div>

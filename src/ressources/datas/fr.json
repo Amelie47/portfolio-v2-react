@@ -36,13 +36,10 @@
             "name": "Développeuse web"
         },
         {
-            "name": "Alternante"
+            "name": "Conseil départemental de Savoie"
         },
         {
-            "name": "Ecole des gobelins"
-        },
-        {
-            "name": "Annecy"
+            "name": "Ecole des gobelins, Annecy"
         }
     ],
     "projects": [
@@ -53,7 +50,7 @@
             "content": {
                 "resume": {
                     "titre": "Résumé",
-                    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "para": "Ce projet a été réalisé pour la fin d'année de Bachelor, aux Gobelins. Le thème était la \"mobilité connectée\". Surfant sur la vague du confinement, mon équipe et moi sommes partis sur une applications permettant de rassembler les personnes qui sont proches géographiquement. Nous avons donc détourné le thème pour \"L'immobilité connectée\". Nous avons donc proposé une applications mobile android ludique qui est alimentée par les utilisateurs eux-mêmes. Le principe est simple : proposer un atelier aux voisins. Les utilisateurs peuvent rechercher un atelier par catégorie et surtout pour un périmètre restreint. L'objectif : réinvestir le lien social en période de confinement, et même après."
                 },
                 "details" : [
                     {
@@ -62,11 +59,19 @@
                     },
                     {
                         "titre" : "Equipe",
-                        "detail" : "2 designers, 2 développeurs"
+                        "detail" : "2 designers • 2 développeurs"
                     },
                     {
                         "titre" : "Rôle",
-                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                        "detail" : "Chef de projet (au même titre que toute l'équipe) • Développeuse mobile"
+                    },
+                    {
+                        "titre" : "Difficultés",
+                        "detail" : "Recherche du concept • Communication (confinement) • Autoformation sur la technologie"
+                    },
+                    {
+                        "titre" : "Réussites",
+                        "detail" : "Cohésion dans le travail de groupe • Autoformation sur la technologie choisie • Finir le parcours utilisateur demandé dans les temps • Démonstration finale"
                     }
                 ]
             },
@@ -84,6 +89,9 @@
                 },
                 {
                     "name": "#figma"
+                },
+                {
+                    "name": "#github"
                 }
             ],
             "couleurs": {
@@ -110,7 +118,7 @@
             "content": {
                 "resume": {
                     "titre": "Résumé",
-                    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "para": "Suivant le thème du \"féminisme\" que l'on a choisi en équipe, nous avons décidé de présenter le féminisme comme étant un mouvement qui ne concerne pas que les femmes, mais bien toute la population. Nous racontons l'histoire d'un personnage neutre en genre / sexe avec un prénom mixte : Gabi. Gabi va alors présenter le féminimse et les inégalités / injustices à différentes étapes de sa vie, c'est-à-dire comment, en 2019, une juene fille / un jeune homme et une vielle dame / un viel homme vivent le féminisme. Pour illustrer nos propos, nous avons sélectionné des données que nous avons mis en forme (graphiques) comme nous imposait le sujet de l'exercice : la datavisualisation. Pour impliquer d'avantage le lecteurs, nous avons proposer des questions pour le faire réflechir sur les différentes situations proposées."
                 },
                 "details" : [
                     {
@@ -119,11 +127,19 @@
                     },
                     {
                         "titre" : "Equipe",
-                        "detail" : "3 designers, 2 développeurs"
+                        "detail" : "3 designers • 2 développeurs"
                     },
                     {
                         "titre" : "Rôle",
-                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                        "detail" : "Chef de projet (comme toute le groupe) • Développeuse web"
+                    },
+                    {
+                        "titre" : "Difficultés",
+                        "detail" : "Communication entre la partie design et la partie développement • Respect du sujet • Première utilisation de github à plusieurs"
+                    },
+                    {
+                        "titre" : "Réussites",
+                        "detail" : "Recherche / conception / réalisation / design du projet en seulement 1 semaine • Présentation du projet"
                     }
                 ]
             },
@@ -153,7 +169,7 @@
                     "name": "DeveloppementWeb"
                 },
                 {
-                    "name": "Maquettes"
+                    "name": "Maquettage"
                 },
                 {
                     "name": "TravailDEquipe"
@@ -167,7 +183,7 @@
             "content": {
                 "resume": {
                     "titre": "Résumé",
-                    "para": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "para": "Ce projet porte sur une application web permettant le traitement des délibérations et la générations des courriers pour le cabinet dui président du conseil départemental de Savoie. J'ai commencé ce projet en tant que stagiaire au sein de la Direction des Systèmes d'information du département de Savoie. Toujours accompagnée de mon maître d'apprentissage, j'ai analysé l'existant, une vieille version sous Microsoft Access, inutilisable sous une version de Windows 10. J'ai alors travaillé pour proposé une nouvelle version de cette application, en web, et en profitant de cette refonte pour rendre son utilisation plus simple, plus rapide, et correspondant aux normes RGPD en vigueur. Le design n'étant pas une priorité pour ce projet, j'ai proposé une interface simple, avec des manipulations et icônes classiques, et des couleurs très neutres."
                 },
                 "details" : [
                     {
@@ -175,8 +191,16 @@
                         "detail" : "Projet professionnel"
                     },
                     {
-                        "titre" : "Rôle",
-                        "detail" : "Pour ce projet, j'ai participé de telle manière pour arriver à le finir malgrè la crise du coronavirus."
+                        "titre" : "Rôles",
+                        "detail" : "Relation avec les utilisateurs demandeurs • Organisation / animation des réunions • Conception des modèles de données • Développement de l'application web • Phase de test • Formations des utilisateurs • Mise en production • Maintenance"
+                    },
+                    {
+                        "titre" : "Difficultés",
+                        "detail" : "Gestion du serveur de test • Transition tortoise svn à git • Contacts avec les collaborateurs du cabinet du président"
+                    },
+                    {
+                        "titre" : "Réussites",
+                        "detail" : "Réalisation du projet en autonomie • Prises d'initiatives sur la conception du projet • Présentation du projet convaincante à des personnes extérieures"
                     }
                 ]
             },
@@ -197,6 +221,9 @@
                 },
                 {
                     "name": "#bootstrap"
+                },
+                {
+                    "name": "#git"
                 }
             ],
             "couleurs": {
@@ -212,7 +239,7 @@
                     "name": "GestionDeProjet"
                 },
                 {
-                    "name": "RelationClient"
+                    "name": "RelationUtilisateurs"
                 }
             ]
         },
@@ -269,6 +296,75 @@
                 },
                 {
                     "name": "Documentation"
+                }
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "id":"0",
+            "name":"Baccalauréat",
+            "acronym":"BAC",
+            "years":"2014 - 2017",
+            "place":"Trévoux",
+            "numberPlace":"01",
+            "organism":"Lycée Val de Saône",
+            "specialization":"Sciences, Physique-Chimie",
+            "options":"Cinéma • ESABAC (bac multinational français-italien)",
+            "complements": []
+        },
+        {
+            "id":"1",
+            "name":"DUT informatique",
+            "acronym":"DUT",
+            "years":"2017 - 2019",
+            "place":"Annecy",
+            "numberPlace":"74",
+            "organism":"IUT Université Savoie Mont-Blanc",
+            "specialization":"Développement web",
+            "options":"Membre du BDE",
+            "complements": [
+                {
+                    "name": "Stage",
+                    "content": "Conseil départemental de Savoie"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "name":"Bachelor Design et Developpement Interractif",
+            "acronym":"BDDI",
+            "years":"2019 - 2020",
+            "place":"Annecy",
+            "numberPlace":"74",
+            "organism":"Ecole des Gobelins",
+            "specialization":"Développement",
+            "options":"",
+            "complements": [
+                {
+                    "name": "Apprentissage",
+                    "content": "Conseil départemental de Savoie"
+                },
+                {
+                    "name": "Projets",
+                    "content":"Gabi • Luma"
+                }
+            ]
+        },
+        {
+            "id":"3",
+            "name":"Master Design et Management de l'Innovation Interactive",
+            "acronym":"MDMII",
+            "years":"En cours",
+            "place":"Annecy",
+            "numberPlace":"74",
+            "organism":"Ecole des Gobelins",
+            "specialization":"Lead Technique",
+            "options":"",
+            "complements": [
+                {
+                    "name": "Apprentissage",
+                    "content": "Conseil départemental de Savoie"
                 }
             ]
         }

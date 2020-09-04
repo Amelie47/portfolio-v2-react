@@ -1,13 +1,13 @@
 import React from 'react';
-import Images from '../../ressources/images/images';
+import Images from '../../../ressources/images/images';
 
-import '../scss/slide.scss';
+import '../../scss/ProjectStyles/slide.scss';
 
 import { Link } from "react-router-dom";
 
-function Slide({ object, id }) {
+function ProjectSlide({ object, id }) {
   return (
-    <div className="Slide">
+    <div className="ProjectSlide">
       <Link to={`/project/${id}`}>
         <div className="component date">
           <p>{object[id].date}</p>
@@ -25,4 +25,4 @@ function Slide({ object, id }) {
   );
 }
 
-export default Slide;
+export default ProjectSlide;

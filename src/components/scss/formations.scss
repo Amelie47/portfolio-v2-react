@@ -1,5 +1,44 @@
 .Formations {
     background-color: var(--main-dark-color);
+
+    .FormationSlide {
+        height: var(--height-content);
+        width: var(--width-content);
+        position: relative;
+
+        .component {
+            width: 100%;
+            height: 6%;
+
+            span {
+                opacity: 0.2;
+            }
+            
+            p {
+                padding-right: 5vw;
+                position: absolute;
+                right: 0;
+                font-size: 15pt;
+            }
+    
+            &.date {
+                height: 12% !important;
+    
+                p {
+                    font-size: 40pt;
+                    opacity: 0.1;
+                    -webkit-text-stroke: 3px;
+                    margin: 0;
+                }
+            }
+
+            &.complements {
+                display: contents;
+            }
+        }
+    }
+
+
 }
 
 $--breakpoint-min-small-devices: 600px;

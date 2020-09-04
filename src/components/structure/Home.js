@@ -4,7 +4,6 @@ import Button from './Button';
 
 import '../scss/home.scss';
 import '../scss/element.scss';
-import '../js/home';
 
 import datas from '../../ressources/datas/fr.json';
 

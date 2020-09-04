@@ -1,4 +1,4 @@
-.Slide {
+.ProjectSlide {
     height: var(--height-content);
     width: var(--width-content);
     position: relative;
@@ -47,7 +47,6 @@
         &.techno {
             bottom: 0;
             height: 20%;
-            
 
             ul {
                 display: flex;
