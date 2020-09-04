@@ -368,5 +368,12 @@
                 }
             ]
         }
+    ],
+    "whoami": [
+        "Je suis née à Lyon, et aujourd'hui j'étudie à Annecy et je travaille à Chambéry. La <span class=\"italic opacity\">montagne</span> m'a tout de suite plu, et je suis restée. J'ai eu la chance de visiter quelques pays d'<span class=\"bold\">Europe</span>, et d'aller en <span class=\"handwriter\">Californie</span>, mais j'aimerais <span class=\"bold opacity\">voyager</span> toujours plus.",
+        "Je suis sensible au <span class=\"opacity handwriter\">monde artistique</span>, et plus particulièrement avec la <span class=\"handwriter\">musique</span> et le <span class=\"bold\">cinéma</span>. Ce sont des moyens d'expression universels et presque sans frontières, qui permettent à la fois de partager et de profiter.",
+        "Je soutiens aussi la cause des <span class=\"italic opacity\">animaux</span> et de l'<span class=\"bold\">environnement</span>, et je défends des <span class=\"handwriter\">valeurs</span> qui me sont chères.",
+        "Je n'ai pas d'ambition très précise pour mon avenir, si ce n'est la volonté d'<span class=\"italic bold\">évoluer</span> régulièrement dans ma vie professionnelle. Le <span class=\"handwriter\">changement</span> ne me fait pas peur, et je n'ai pas envie de me reposer sur mes acquis.",
+        "Ah oui, et mon petit chat Rolex vous miaule un <span class=\"opacity\">bonjour</span> ☺"
     ]
 }

@@ -22,6 +22,15 @@
     .bold {
         font-weight: bold;
     }
+
+    .opacity {
+        opacity: 0.5;
+    }
+
+    .handwriter {
+        font-family: secondary-font;
+        font-size: 18pt;
+    }
 }
 
 $--breakpoint-min-small-devices: 600px;

@@ -2,6 +2,7 @@ import React from 'react';
 import '../scss/whoami.scss';
 import Line from './Line';
 import portrait from '../../ressources/images/portrait.png';
+import datas from '../../ressources/datas/fr.json';
 
 function Whoami() {
   return (
@@ -13,8 +14,7 @@ function Whoami() {
         <Line name="toDisplayNone"></Line>
         <img src={portrait} />
         <div className="content">
-          <p>Lorem ipsum dolor <span className="italic">sit amet</span> y pure sit etas <span className="bold">dimetrum</span> Putretas simun aler da mimetum <span className="bold">Sierra</span> e di misera e da amertum dolor.
-          </p>
+          {Object.keys(datas.whoami).map((v, i) => <p dangerouslySetInnerHTML={{__html: datas.whoami[i]}}/> )}
         </div>
       </div>
     </div>
