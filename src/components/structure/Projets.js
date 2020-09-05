@@ -10,7 +10,10 @@ import "../scss/slider-slick.scss";
 
 import datas from '../../ressources/datas/fr.json';
 
-const Projets = () => {
+function Projets({titleid}) {
+
+  const section = datas.titles.find((element) => element.id === titleid);
+
   var settings = {
     dots: true,
     dotsClass: "slick-dots",
@@ -28,8 +31,8 @@ const Projets = () => {
   return (
     <div className="Projets section">
       <div className="principal_content relative left-15-vw top-20-vh">
-        <p className="overline">_Créativité</p>
-        <h1>Projets</h1>
+        <p className="overline">{section.overline}</p>
+        <h1>{section.name}</h1>
         <Line></Line>
         <div className="content">
           <Slider {...settings}>

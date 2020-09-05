@@ -3,7 +3,7 @@ import Bandeau from './Bandeau';
 
 import '../../scss/ProjectStyles/project_title.scss';
 
-import Images from '../../../ressources/images/images';
+import Images from '../../../ressources/images/imagesProjects';
 
 function ProjectTitle({ project }) {
 

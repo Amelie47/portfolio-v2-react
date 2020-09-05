@@ -1,17 +1,19 @@
 import React from 'react';
-import Images from '../../ressources/images/images';
-
 import '../scss/formations.scss';
 
+import Images from '../../ressources/images/imagesFormations';
 
 function FormationSlide({ object, id }) {
 
   return (
     <div className="FormationSlide">
+
+      <div className="components">
+
         <div className="component date">
           <p>{object[id].years}</p>
         </div>
-        <div className="component">
+        <div className="component name">
           <p>{object[id].name}</p>
         </div>
         <div className="component spe">
@@ -33,6 +35,12 @@ function FormationSlide({ object, id }) {
           </div>
         }
 
+        <div className="component image">
+          <img src={Images.find(x => x.code === object[id].logo_id).src} />
+        </div>
+
+
+      </div>
 
     </div>
   );

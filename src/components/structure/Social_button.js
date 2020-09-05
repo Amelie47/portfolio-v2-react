@@ -1,6 +1,6 @@
 import React from 'react';
 import Line from './Line';
-import Images from '../../ressources/images/images';
+import Images from '../../ressources/images/imagesSocial';
 
 import '../scss/social_button.scss';
 

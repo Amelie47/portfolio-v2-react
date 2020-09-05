@@ -13,6 +13,28 @@
             "name": "contact"
         }
     ],
+    "titles": [
+        {
+            "id":"0",
+            "name":"Projets",
+            "overline":"_Créativité"
+        },
+        {
+            "id":"1",
+            "name":"Formations",
+            "overline":"_Découvertes"
+        },
+        {
+            "id":"2",
+            "name":"Whoami",
+            "overline":"_I_Am..."
+        },
+        {
+            "id":"3",
+            "name":"Contact",
+            "overline":"_Gardons_le_contact"
+        }
+    ],
     "social": {
         "code" : "SO_",
         "liens" :     
@@ -309,6 +331,7 @@
             "place":"Trévoux",
             "numberPlace":"01",
             "organism":"Lycée Val de Saône",
+            "logo_id":"FO_0",
             "specialization":"Sciences, Physique-Chimie",
             "options":"Cinéma • ESABAC (bac multinational français-italien)",
             "complements": []
@@ -321,6 +344,7 @@
             "place":"Annecy",
             "numberPlace":"74",
             "organism":"IUT Université Savoie Mont-Blanc",
+            "logo_id":"FO_1",
             "specialization":"Développement web",
             "options":"Membre du BDE",
             "complements": [
@@ -338,6 +362,7 @@
             "place":"Annecy",
             "numberPlace":"74",
             "organism":"Ecole des Gobelins",
+            "logo_id":"FO_2",
             "specialization":"Développement",
             "options":"",
             "complements": [
@@ -359,6 +384,7 @@
             "place":"Annecy",
             "numberPlace":"74",
             "organism":"Ecole des Gobelins",
+            "logo_id":"FO_2",
             "specialization":"Lead Technique",
             "options":"",
             "complements": [

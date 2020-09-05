@@ -23,16 +23,17 @@ function Root() {
             <Home></Home>
             <Picture name="mountain" h="70"></Picture>
 
-            <Projets></Projets>
+            <Projets titleid="0"></Projets>
             <Picture name="paper-triangles" h="20" pos="center"></Picture>
 
-            <Formations></Formations>
+            <Formations titleid="1"></Formations>
             <Picture name="paper-square" h="45" pos="center"></Picture>
 
-            <Whoami></Whoami>
+            <Whoami titleid="2"></Whoami>
             <Picture name="wall" h="20"></Picture>
 
-            <Contact></Contact>
+            <Contact titleid="3"></Contact>
+
             <Footer></Footer>
         </div>
     );

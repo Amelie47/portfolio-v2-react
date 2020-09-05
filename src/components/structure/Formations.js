@@ -11,7 +11,10 @@ import "../scss/slider-slick.scss";
 
 import datas from '../../ressources/datas/fr.json';
 
-function Formations() {
+function Formations({titleid}) {
+
+  const section = datas.titles.find((element) => element.id === titleid);
+
   var settings = {
     dots: true,
     dotsClass: "slick-dots",
@@ -29,8 +32,8 @@ function Formations() {
   return (
     <div className="Formations section">
         <div className="principal_content relative left-15-vw top-20-vh">
-        <p className="overline">_Découvertes</p>
-        <h1>Formations</h1>
+        <p className="overline">{section.overline}</p>
+        <h1>{section.name}</h1>
         <Line></Line>
         <div className="content">
           {/* CONTENU */}

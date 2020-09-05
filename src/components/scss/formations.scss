@@ -6,34 +6,63 @@
         width: var(--width-content);
         position: relative;
 
+        .components {
+            height: 100%-10%;
+            width: 100%-10%;
+            border-right: solid 1px white;
+            background-color: rgba(30, 31, 33, 0.3);
+            padding-top: 3vh;
+            margin-left: 2vw;
+            border-radius: 8px 0 0 8px;
+        }
+
         .component {
             width: 100%;
-            height: 6%;
+            height: 30px;
 
             span {
                 opacity: 0.2;
             }
             
             p {
-                padding-right: 5vw;
+                padding-right: 10vw;
                 position: absolute;
                 right: 0;
                 font-size: 15pt;
             }
     
             &.date {
-                height: 12% !important;
+                height: 80px;
     
                 p {
                     font-size: 40pt;
                     opacity: 0.1;
                     -webkit-text-stroke: 3px;
                     margin: 0;
+                    padding-top: 3vh;
+                }
+            }
+
+            &.name {
+                p {
+                    font-weight: bold;
                 }
             }
 
             &.complements {
                 display: contents;
+            }
+
+            &.image {
+                width: 50%;
+
+                img {
+                    max-width: 8vw;
+                    max-height: 8vh;
+                    position: absolute;
+                    bottom: 5vh;
+                    left: 5vw;
+                }
             }
         }
     }

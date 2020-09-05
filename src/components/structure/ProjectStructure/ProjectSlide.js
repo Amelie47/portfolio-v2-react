@@ -1,5 +1,5 @@
 import React from 'react';
-import Images from '../../../ressources/images/images';
+import Images from '../../../ressources/images/imagesProjects';
 
 import '../../scss/ProjectStyles/slide.scss';
 

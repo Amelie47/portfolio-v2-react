@@ -1,6 +1,3 @@
-import linkedin from './linkedin.png';
-import github from './github.png';
-
 import gabi from './projets/gabi_slide_2.png';
 import gabititle from './projets/gabi_title.png';
 
@@ -14,11 +11,6 @@ import alixpicture2 from './projets/alix-picture_2.png';
 
 import snated from './projets/snated_slide.png';
 import snatedtitle from './projets/snated_title.png';
-
-const social_images = [
-    { code: "SO_1", src: linkedin, name: 'linkedin', description: 'linkedin logo' },
-    { code: "SO_2", src: github, name: 'github', description: 'github logo' }
-];
 
 const gabi_images = [
     { code: "GA_1", src: gabi, name: 'gabi', description: 'gabi image slide' },
@@ -42,6 +34,6 @@ const snated_images = [
     { code: "SN_2", src: snatedtitle, name: 'snatedtitle', description: 'snatedtitle image slide' }
 ]
   
-const images = social_images.concat(gabi_images, luma_images, alix_images, snated_images);
+const images = gabi_images.concat(luma_images, alix_images, snated_images);
 
 export default images;
