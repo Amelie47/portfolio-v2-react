@@ -31,7 +31,7 @@
 
 html {
   overflow-x: hidden;
-  cursor: crosshair;
+  /* cursor: crosshair; */
 }
 
 body {
@@ -64,13 +64,11 @@ h1 {
   top: -11vh;
   left: -15vh;
   opacity: 0.4;
-  cursor: crosshair;
 }
 
 h1 {
   position: relative;
   width: fit-content;
-  cursor: crosshair;
 }
 
 .content {

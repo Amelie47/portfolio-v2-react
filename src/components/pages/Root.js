@@ -21,13 +21,13 @@ function Root() {
             <Menu></Menu>
             <Social></Social>
             <Home></Home>
-            <Picture name="mountain" h="70"></Picture>
+            <Picture name="mountain" h="50"></Picture>
 
             <Projets titleid="0"></Projets>
             <Picture name="paper-triangles" h="20" pos="center"></Picture>
 
             <Formations titleid="1"></Formations>
-            <Picture name="paper-square" h="45" pos="center"></Picture>
+            <Picture name="paper-square" h="20" pos="center"></Picture>
 
             <Whoami titleid="2"></Whoami>
             <Picture name="wall" h="20"></Picture>

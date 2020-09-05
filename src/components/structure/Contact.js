@@ -3,6 +3,9 @@ import '../scss/contact.scss';
 import Line from './Line';
 import datas from '../../ressources/datas/fr.json';
 
+import{ init } from 'emailjs-com';
+init("user_7NOlDEXLiVCNQvWtb0N14");
+
 function Contact({titleid}) {
 
   const section = datas.titles.find((element) => element.id === titleid);
@@ -20,7 +23,7 @@ function Contact({titleid}) {
                 <p className="email">contact@amelie-mouillac.fr</p>
                 <div className="mailForm">
 
-                <form action="" method="get" className="formSendMail">
+                <form className="formSendMail">
                   <div className="formDivItem">
                     <input type="text" name="name" id="name" required placeholder="Nom, prénom *"/>
                   </div>
@@ -49,6 +52,7 @@ function Contact({titleid}) {
         </div>
     </div>
   );
+
 }
 
 export default Contact;
