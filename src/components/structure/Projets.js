@@ -36,7 +36,7 @@ function Projets({titleid}) {
         <Line></Line>
         <div className="content">
           <Slider {...settings}>
-            {Object.keys(datas.projects).map((v, i) => <ProjectSlide object={datas.projects} id={i}></ProjectSlide> )}
+            {Object.keys(datas.projects).map((v, i) => <ProjectSlide object={datas.projects} id={i} ></ProjectSlide> )}
           </Slider>
         </div>
       </div>

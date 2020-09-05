@@ -7,6 +7,8 @@ import Images from '../../../ressources/images/imagesProjects';
 
 function ProjectTitle({ project }) {
 
+    const image = Images.find(x => x.code === project.images.code + project.images.title);
+
     return (
         <div className="ProjectTitle">
             <div className="project-title-content">
@@ -14,11 +16,11 @@ function ProjectTitle({ project }) {
                     <p>{project.date}</p>
                 </div>
                 <div className="component image">
-                    <img src={Images.find(x => x.code === project.images.code + project.images.title).src} />
+                    <img src={image.src} alt={image.description}/>
                 </div>
                 <div className="component techno">
                     <ul>
-                        {Object.keys(project.techno).map((v, i) => <li>{project.techno[i].name}</li>)}
+                        {Object.keys(project.techno).map((v, i) => <li key={i}>{project.techno[i].name}</li>)}
                     </ul>
                 </div>
             </div>

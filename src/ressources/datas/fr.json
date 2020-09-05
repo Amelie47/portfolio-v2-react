@@ -1,18 +1,4 @@
 {
-    "menu": [
-        {
-            "name": "projets"
-        },
-        {
-            "name": "formations"
-        },
-        {
-            "name": "whoami"
-        },
-        {
-            "name": "contact"
-        }
-    ],
     "titles": [
         {
             "id":"0",

@@ -17,7 +17,7 @@ function Home() {
         <div className="presentation">
           <ul>
             <li>Amélie Mouillac</li>
-            {Object.keys(datas.home).map((v,i) => <li>{datas.home[i].name}</li> )}
+            {Object.keys(datas.home).map((v,i) => <li key={i}>{datas.home[i].name}</li> )}
           </ul>
         </div>
       </div>

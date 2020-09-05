@@ -14,25 +14,25 @@ function Bandeau({ id }) {
         color: project.couleurs.primaire,
         textStrokeColor: project.couleurs.primaire
     };
-    const secondaryStyle = {backgroundColor: project.couleurs.secondaire};
-    const thirdStyle = {backgroundColor: project.couleurs.tertiaire};
+    // const secondaryStyle = {backgroundColor: project.couleurs.secondaire};
+    // const thirdStyle = {backgroundColor: project.couleurs.tertiaire};
 
     return (
         <div className="Bandeau">
             <ul className="slide-right">
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
             </ul>
             <ul className="slide-left">
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
             </ul>
             <ul className="slide-right">
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
-                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
+                {Object.keys(project.bandeau).map((v, i) => <li style={primaryStyle} key={i}>{project.bandeau[i].name}</li>)}
             </ul>
         </div>
     );

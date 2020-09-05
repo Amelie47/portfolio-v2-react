@@ -5,6 +5,8 @@ import Images from '../../ressources/images/imagesFormations';
 
 function FormationSlide({ object, id }) {
 
+  const logo = Images.find(x => x.code === object[id].logo_id);
+
   return (
     <div className="FormationSlide">
 
@@ -31,12 +33,12 @@ function FormationSlide({ object, id }) {
 
         {object[id].complements.length > 0 &&
           <div className="component complements">
-            {Object.keys(object[id].complements).map((v, i) => <div className="component"><p><span>{object[id].complements[i].name} : </span>{object[id].complements[i].content}</p></div>)}
+            {Object.keys(object[id].complements).map((v, i) => <div className="component" key={i}><p><span>{object[id].complements[i].name} : </span>{object[id].complements[i].content}</p></div>)}
           </div>
         }
 
         <div className="component image">
-          <img src={Images.find(x => x.code === object[id].logo_id).src} />
+          <img src={logo.src} alt={logo.description}/>
         </div>
 
 

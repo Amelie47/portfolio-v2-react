@@ -7,7 +7,7 @@ function SectionDetails({details}) {
         <div className="SectionDetails">
             <div className="citations">
             {Object.keys(details).map((v, i) => 
-            <Citation titre={details[i].titre} para={details[i].detail} w="40"></Citation>
+            <Citation titre={details[i].titre} para={details[i].detail} w="40" key={i}></Citation>
             )}
             </div>
         </div>

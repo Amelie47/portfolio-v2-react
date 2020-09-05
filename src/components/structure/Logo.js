@@ -5,7 +5,7 @@ import img from '../../ressources/images/logo/classic.png'
 function Logo() {
   return (
     <div className="Logo">
-        <img src={img}></img>
+        <img src={img} alt="logo"></img>
     </div>
   );
 }

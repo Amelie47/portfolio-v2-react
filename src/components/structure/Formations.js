@@ -38,7 +38,7 @@ function Formations({titleid}) {
         <div className="content">
           {/* CONTENU */}
           <Slider {...settings}>
-            {Object.keys(datas.formations).map((v, i) => <FormationSlide object={datas.formations} id={i}></FormationSlide> )}
+            {Object.keys(datas.formations).map((v, i) => <FormationSlide object={datas.formations} id={i} key={i}></FormationSlide> )}
           </Slider>
         </div>
         </div>

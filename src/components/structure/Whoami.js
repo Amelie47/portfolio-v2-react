@@ -15,9 +15,9 @@ function Whoami({titleid}) {
         <p className="overline">{section.overline}</p>
         <h1>{section.name}</h1>
         <Line name="toDisplayNone"></Line>
-        <img src={portrait} />
+        <img src={portrait} alt="portrait"/>
         <div className="content">
-          {Object.keys(datas.whoami).map((v, i) => <p dangerouslySetInnerHTML={{__html: datas.whoami[i]}}/> )}
+          {Object.keys(datas.whoami).map((v, i) => <p dangerouslySetInnerHTML={{__html: datas.whoami[i]}} key={i}/> )}
         </div>
       </div>
     </div>
