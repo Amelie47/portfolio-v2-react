@@ -21,7 +21,7 @@ function Home() {
           </ul>
         </div>
       </div>
-      <Line h="50" right="60-vw" top="0-vh" name="toDisplayNone"></Line>
+      <Line h="50" left="50-vw" top="0-vh" name="toDisplayNone"></Line>
       <Button anime="slide-top"></Button>
     </div>
   );

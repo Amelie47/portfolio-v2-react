@@ -69,5 +69,11 @@ $--breakpoint-min-large-devices: 1200px;
     }
 }
 
-
+@media screen and (max-width: $--breakpoint-min-large-devices) {
+    .Home {
+        #toDisplayNone {
+            left: 71vw !important;
+        }      
+    }
+}
   
