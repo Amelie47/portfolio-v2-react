@@ -1,0 +1,480 @@
+{
+  "titles": [
+    {
+      "id": "0",
+      "name": "Progetti",
+      "overline": "_Creatività"
+    },
+    {
+      "id": "1",
+      "name": "Formazione",
+      "overline": "_Scoperti"
+    },
+    {
+      "id": "2",
+      "name": "Whoami",
+      "overline": "_Io_sono..."
+    },
+    {
+      "id": "3",
+      "name": "Contatti",
+      "overline": "_Manteniamo_il_contatto"
+    }
+  ],
+  "social": {
+    "code": "SO_",
+    "liens": [
+      {
+        "id": 0,
+        "name": "Github",
+        "url": "https://github.com/Amelie47",
+        "image_id": 2
+      },
+      {
+        "id": 1,
+        "name": "Linkedin",
+        "url": "https://www.google.com",
+        "image_id": 1
+      }
+    ]
+  },
+  "home": {
+    "name": "Amélie Mouillac",
+    "title": {
+      "first": "Buongiorno !",
+      "overline": "_Buongiorno"
+    },
+    "items": [
+      {
+        "name": "Sviluppatrice web"
+      },
+      {
+        "name": "Consiglio dipartimentale della Savoia, Chambéry"
+      },
+      {
+        "name": "Scuola dei Goblins, Annecy"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "name": "FR",
+      "dataset": "fr"
+    },
+    {
+      "name": "EN",
+      "dataset": "en"
+    },
+    {
+      "name": "IT",
+      "dataset": "it"
+    }
+  ],
+  "projects": [
+    {
+      "id": "0",
+      "name": "Luma",
+      "date": "2020",
+      "content": {
+        "resume": {
+          "titre": "Riassunto",
+          "params": [
+            "Ho realizzato questo progetto per la fine dell'anno del diploma breve, presso la scuola Gobelins. Il tema è la \"mobilità connessa\".",
+            "Ispirati dal contenimento, io e il mio team abbiamo sviluppato un'app che riunisce persone geograficamente vicine tra loro. Abbiamo dirottato il tema nella \"quiete connessa\". Abbiamo proposto una divertente applicazione mobile il cui contenuto è alimentato dagli utenti stessi.",
+            "Il principio è semplice: proposare un laboratorio ai vicini. Gli utenti possono cercare un laboratorio via categoria o via a perimeto restrito. L'obietivo: reinvestire il legame sociale in un periodo speciale."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Type",
+            "detail": ["Progetto scolastico"]
+          },
+          {
+            "titre": "Gruppo",
+            "detail": ["2 grafici • 2 sviluppatori"]
+          },
+          {
+            "titre": "Ruolo",
+            "detail": ["Project manager (come il gruppo) • Sviluppatore mobile"]
+          },
+          {
+            "titre": "Difficoltà",
+            "detail": [
+              "Ricerca concettuale • Comunicazione (contenimento) • Autoformazione sulla tecnologia"
+            ]
+          },
+          {
+            "titre": "Realizzazioni",
+            "detail": [
+              "Coesione nel lavoro di gruppo • Autoformazione sulla tecnologia scelta • Completare in tempo il percorso dell'utente richiesto • Dimostrazione finale"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "LU_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#kotlin"
+        },
+        {
+          "name": "#firebase"
+        },
+        {
+          "name": "#figma"
+        },
+        {
+          "name": "#github"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#00D1C5",
+        "secondaire": "#F21D52",
+        "tertiaire": "#FFAC3D"
+      },
+      "bandeau": [
+        {
+          "name": "GestioneDiProgetto"
+        },
+        {
+          "name": "SviluppoMobile"
+        },
+        {
+          "name": "OrologioDigitale"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Gabi",
+      "date": "2019",
+      "content": {
+        "resume": {
+          "titre": "Riassunto",
+          "params": [
+            "Seguendo il tema del \"femminismo \" che abbiamo scelto insieme, abbiamo deciso di presentare il femminismo come un movimento che non riguarda solo le donne, ma l'intera popolazione.",
+            "Raccontiamo la storia di un personaggio neutrale con un nome misto: Gabi. Gabi presenterà quindi il femminismo e le disuguaglianze / ingiustizie nelle diverse fasi della sua vita, ovvero come, nel 2019, una ragazza / un giovane e un'anziana / un vecchio sperimentano il femminismo.",
+            "Per illustrare il nostro punto, abbiamo selezionato i dati che abbiamo formattato (grafici) come oggetto dell'esercizio ci ha richiesto: visualizzazione dei dati. Per coinvolgere maggiormente il lettore, abbiamo proposto delle domande per fargli riflettere sulle diverse situazioni proposte."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Tipo",
+            "detail": ["Progetto scolastico"]
+          },
+          {
+            "titre": "Gruppo",
+            "detail": ["3 grafici • 2 svilupatori"]
+          },
+          {
+            "titre": "Ruolo",
+            "detail": ["Project manager (come il gruppo) • Sviluppatore web"]
+          },
+          {
+            "titre": "Difficoltà",
+            "detail": [
+              "Comunicazione tra la parte di design e la parte di sviluppo • Rispetto del soggetto • Primo utilizzo di github con più persone"
+            ]
+          },
+          {
+            "titre": "Realizzazioni",
+            "detail": [
+              "Ricerca / ideazione / realizzazione / design del progetto in una sola settimana • Presentazione del progetto"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "GA_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#scss"
+        },
+        {
+          "name": "#javascript"
+        },
+        {
+          "name": "#html"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#FFAB33",
+        "secondaire": "#FE705C",
+        "tertiaire": "#F8F3EC"
+      },
+      "bandeau": [
+        {
+          "name": "sviluppoWeb"
+        },
+        {
+          "name": "Modello"
+        },
+        {
+          "name": "LavoroDiGruppo"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Alix",
+      "date": "2019-2020",
+      "content": {
+        "resume": {
+          "titre": "Riassunto",
+          "params": [
+            "Questo progetto riguarda un'applicazione web che consente l'elaborazione delle deliberazioni e la generazione di lettere per l'ufficio del presidente del consiglio dipartimentale della Savoia. Ho iniziato questo progetto come stagista nel dipartimento dei sistemi informativi del dipartimento della Savoia.",
+            "Sempre accompagnata dal mio tutor, ho analizzato quella esistente, una vecchia versione sotto Microsoft Access, inutilizzabile sotto una versione di Windows 10. Ho poi lavorato per offrire una nuova versione di questa applicazione, sul web, e approfittando di questa riprogettazione per renderne l'utilizzo più semplice, veloce e corrispondente agli standard GDPR in vigore.",
+            "Il design non è una priorità per questo progetto, quindi ho proposto un'interfaccia semplice, con manipolazioni e icone classiche e colori neutri."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Tipo",
+            "detail": ["Progetto professionale"]
+          },
+          {
+            "titre": "Ruolo",
+            "detail": [
+              "Rapporti con gli utenti • Organizzazione / animazione degli incontri • Progettazione di modelli di dati • Sviluppo dell'applicazione web • Fase di test • Formazione utenti • Entrata in produzione • Manutenzione"
+            ]
+          },
+          {
+            "titre": "Difficoltà",
+            "detail": [
+              "Gestione del server di test • Transizione da tortoise svn a git • Contatti con i collaboratori dell'ufficio del presidente"
+            ]
+          },
+          {
+            "titre": "Realizzazioni",
+            "detail": [
+              "Realizzazione autonoma del progetto • Iniziative intraprese nella progettazione del progetto • Presentazione convincente del progetto agli estranei"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "AL_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#laravel"
+        },
+        {
+          "name": "#php"
+        },
+        {
+          "name": "#sql"
+        },
+        {
+          "name": "#bootstrap"
+        },
+        {
+          "name": "#git"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#E8ECED",
+        "secondaire": "#00CAFF",
+        "tertiaire": "#FF543F"
+      },
+      "bandeau": [
+        {
+          "name": "SviluppoWeb"
+        },
+        {
+          "name": "GestioneDiProgetto"
+        },
+        {
+          "name": "RapportoUtente"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Snated",
+      "date": "2020",
+      "content": {
+        "resume": {
+          "titre": "Riassunto",
+          "params": [
+            "Quando un bambino sembra essere in pericolo, è possibile chiamare un numero nazionale univoco per chiedere aiuto. Questi inviti vengono inoltrati ai dipartimenti francesi responsabili dello studio delle situazioni descritte.",
+            "Lo scambio di informazioni tra SNATED (il Servizio Nazionale per l'Accoglienza Telefonica dei Bambini a Rischio) ed i dipartimenti avviene tramite file xml, regolarmente aggiornati e più o meno completi. La difficoltà degli agenti nello studio delle situazioni a causa della grande variazione dei dati ricevuti, ostacola il loro ruolo che è quello di controllare le informazioni e restituire una valutazione a SNATED.",
+            "Ho quindi preso una vecchia applicazione in php per riformularla in un'applicazione web, assicurandomi di rispettare le linee guida GDPR (si tratta di dati molto sensibili) e per facilitare il lavoro degli agenti, e per renderli autonomi.",
+            "Ho progettato un'interfaccia abbastanza semplice e ordinata, con colori ripresi dal logo del numero nazionale 119. Ho deciso di mettere poche icone, ma piccole miniature per migliorare la leggibilità, facilitare la lettura dei dati e portare un po 'di umano al progetto."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Tipo",
+            "detail": ["Progetto professionale"]
+          },
+          {
+            "titre": "Ruolo",
+            "detail": [
+              "Progettazione di modelli di dati • Sviluppo di applicazioni Web • Fase di test"
+            ]
+          },
+          {
+            "titre": "Difficoltà",
+            "detail": [
+              "Concepito di un design piacevole per ammorbidire l'asprezza dei dati letti dagli agenti • Autoformazione sull'utilizzo di file XML"
+            ]
+          },
+          {
+            "titre": "Realizzazioni",
+            "detail": [
+              "Implementazione autonoma del progetto • Iniziative intraprese nella progettazione del progetto • Conformità agli standard GDPR • Competenze acquisite nell'utilizzo di file XML (XSD, XSLT ...)"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "SN_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#laravel"
+        },
+        {
+          "name": "#php"
+        },
+        {
+          "name": "#sql"
+        },
+        {
+          "name": "#bootstrap"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#FF8E52",
+        "secondaire": "#E2000B",
+        "tertiaire": "#0095AD"
+      },
+      "bandeau": [
+        {
+          "name": "SviluppoWeb"
+        },
+        {
+          "name": "ControlloDelleVersioni"
+        },
+        {
+          "name": "Documentazione"
+        }
+      ]
+    }
+  ],
+  "formations": {
+    "spe": "Specializzazione",
+    "options": "Opzioni",
+    "slides": [
+      {
+        "id": "0",
+        "name": "Maturità",
+        "acronym": "BAC",
+        "years": "2014 - 2017",
+        "place": "Trévoux",
+        "numberPlace": "01",
+        "organism": "Liceo Val de Saône",
+        "logo_id": "FO_0",
+        "specialization": "Scienze, Fisica-Chimica",
+        "options": "Cinema • ESABAC (Bac multinazionale franco-italiano)",
+        "complements": []
+      },
+      {
+        "id": "1",
+        "name": "Laurea in informatica",
+        "acronym": "DUT",
+        "years": "2017 - 2019",
+        "place": "Annecy",
+        "numberPlace": "74",
+        "organism": "IUT, Università Savoie Mont-Blanc",
+        "logo_id": "FO_1",
+        "specialization": "Sviluppo web",
+        "options": "Membro del consiglio studentesco",
+        "complements": [
+          {
+            "name": "Tirocinio",
+            "content": "Consiglio dipartimentale della Savoia"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Laurea in Design e Sviluppo Interrazionale",
+        "acronym": "LDSI",
+        "years": "2019 - 2020",
+        "place": "Annecy",
+        "numberPlace": "74",
+        "organism": "Scuola dei Gobelins",
+        "logo_id": "FO_2",
+        "specialization": "Sviluppo",
+        "options": "",
+        "complements": [
+          {
+            "name": "Apprendimento",
+            "content": "Consiglio dipartimentale della Savoia"
+          },
+          {
+            "name": "Progetti",
+            "content": "Gabi • Luma"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Master in Design e Gestione dell'Innovazione Interattiva",
+        "acronym": "MDGII",
+        "years": "In corso",
+        "place": "Annecy",
+        "numberPlace": "74",
+        "organism": "Scuola dei Gobelins",
+        "logo_id": "FO_2",
+        "specialization": "Responsabile tecnico",
+        "options": "",
+        "complements": [
+          {
+            "name": "Apprendimento",
+            "content": "Consiglio dipartimentale della Savoia"
+          }
+        ]
+      }
+    ]
+  },
+  "whoami": [
+    "Sono nata a Lione, e oggi studio ad Annecy e lavoro a Chambéry. Mi è piaciuta subito la <span class = \"italic opacity \"> montagna </span> e sono rimasta. Ho avuto la fortuna di visitare alcuni paesi in <span class = \"bold \"> Europa </span> e di andare in <span class = \"handwriter \"> California </span>, ma vorrei <span class = \"bold opacity \"> viaggiare </span> sempre di più.",
+    "Sono sensibile al <span class = \"opacity handwriter \"> mondo artistico </span> e più in particolare alla <span class = \"handwriter \"> musica </span> e al <span class = \" bold \"> cinema </span>. Sono mezzi di espressione universali e quasi senza confini, che consentono sia di condividere che di beneficiare.",
+    "Sostengo anche la causa degli <span class = \"italic opacity \"> animali </span> e del <span class = \"bold \"> ambiente </span> e difendo <span class = \"handwriter \"> valori </span> che mi sono cari.",
+    "Non ho un'ambizione molto precisa per il mio futuro, tranne la volontà di <span class = \"italic bold \"> evolversi </span> regolarmente nella mia vita professionale. Il <span class = \"handwriter \"> cambiamento </span> non mi fa paura e non voglio fare affidamento su ciò che ho imparato.",
+    "Ah sì, e il mio piccolo gatto Rolex miagola un <span class = \"opacity \"> ciao </span> ☺"
+  ],
+  "contact": {
+    "mail": {
+      "title": "Via mail",
+      "content": "contact@amelie-mouillac.fr"
+    },
+    "tel": {
+      "title": "Via telefono",
+      "content": "07 • 81 • 79 • 53 • 36"
+    },
+    "form": {
+      "inputName": "Nome, cognome *",
+      "inputMail": "Email *",
+      "inputTopic": "Oggetto *",
+      "inputMessage": "Messaggio *",
+      "formsend": "Inviare"
+    }
+  },
+  "footer": {
+    "sentence": "A presto !"
+  }
+}

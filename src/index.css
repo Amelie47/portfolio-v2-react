@@ -1,16 +1,16 @@
 /* VARIABLES */
 * {
-  --main-dark-color: #3B3C40;
+  --main-dark-color: #3b3c40;
   --main-text-color: white;
   --line-color: white;
-  --main-pinky-color: #F27979;
-  --main-pink-color: #F24B59;
-  --main-light-color : #F2E6CE;
-  --main-cold-color: #96D9D9;
+  --main-pinky-color: #f27979;
+  --main-pink-color: #f24b59;
+  --main-light-color: #f2e6ce;
+  --main-cold-color: #96d9d9;
 
   --height-content: 55vh;
   --width-content: 64vw;
- 
+
   --breakpoint-min-small-devices: 600px;
   --breakpoint-min-medium-devices: 768px;
   --breakpoint-min-regular-devices: 992px;
@@ -39,9 +39,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  color : var(--main-text-color);
+  color: var(--main-text-color);
   font-family: main-font;
-  
 }
 
 h1 {
@@ -53,7 +52,7 @@ h1 {
   width: fit-content;
 }
 
-.overline{
+.overline {
   color: var(--main-pink-color);
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
@@ -84,17 +83,18 @@ h1 {
   min-height: 100vh;
 }
 
-
 ::-webkit-scrollbar {
   width: 10px;
+  background: #1e1f21;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--main-pinky-color); 
-  border-right: #F24B59 solid 3px;
+  background: var(--main-pinky-color);
+  border-right: #f24b59 solid 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--main-cold-color);
-  border-right: #A69897 solid 3px;
+  border-right: #a69897 solid 3px;
+  cursor: default !important;
 }

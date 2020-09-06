@@ -1,1 +1,480 @@
-{}
+{
+  "titles": [
+    {
+      "id": "0",
+      "name": "Projects",
+      "overline": "_Creativity"
+    },
+    {
+      "id": "1",
+      "name": "Training",
+      "overline": "_Discoveries"
+    },
+    {
+      "id": "2",
+      "name": "Whoami",
+      "overline": "_I_Am..."
+    },
+    {
+      "id": "3",
+      "name": "Contact",
+      "overline": "_Stay_in_touch"
+    }
+  ],
+  "social": {
+    "code": "SO_",
+    "liens": [
+      {
+        "id": 0,
+        "name": "Github",
+        "url": "https://github.com/Amelie47",
+        "image_id": 2
+      },
+      {
+        "id": 1,
+        "name": "Linkedin",
+        "url": "https://www.google.com",
+        "image_id": 1
+      }
+    ]
+  },
+  "home": {
+    "name": "Amélie Mouillac",
+    "title": {
+      "first": "Hello !",
+      "overline": "_Hello"
+    },
+    "items": [
+      {
+        "name": "Web developer"
+      },
+      {
+        "name": "Savoie department, Chambéry"
+      },
+      {
+        "name": "Gobelins school, Annecy"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "name": "FR",
+      "dataset": "fr"
+    },
+    {
+      "name": "EN",
+      "dataset": "en"
+    },
+    {
+      "name": "IT",
+      "dataset": "it"
+    }
+  ],
+  "projects": [
+    {
+      "id": "0",
+      "name": "Luma",
+      "date": "2020",
+      "content": {
+        "resume": {
+          "titre": "Abstract",
+          "params": [
+            "I realized this project for the end of Bachelor year, at Gobelins school. The theme of this exercise was \"the connected mobility\".",
+            "Ride the wave of confinement, my team and I decided to build an app that brings together geolocally close peoples. We changed the theme to \"connected stillness\". We proposed a funny mobile app which give the power to the users to make contents.",
+            "The using  is simple : offer a workshop to neighbors. Users can search a workshop by a category or from the location of the workshop, with a a restricted perimeter. The goal was to reinvest the social bond during special periods."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Type",
+            "detail": ["School project"]
+          },
+          {
+            "titre": "Team",
+            "detail": ["2 graphic designer • 2 developer"]
+          },
+          {
+            "titre": "Role",
+            "detail": ["Project manager (like all the team) • Mobile developer"]
+          },
+          {
+            "titre": "Difficulties",
+            "detail": [
+              "Concept research • Communication (related to containment) • Self-study on technology"
+            ]
+          },
+          {
+            "titre": "Achievements",
+            "detail": [
+              "Cohesion in the team work • Self-study on choosed technology • Complete the requested user journey on time • Final demonstration"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "LU_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#kotlin"
+        },
+        {
+          "name": "#firebase"
+        },
+        {
+          "name": "#figma"
+        },
+        {
+          "name": "#github"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#00D1C5",
+        "secondaire": "#F21D52",
+        "tertiaire": "#FFAC3D"
+      },
+      "bandeau": [
+        {
+          "name": "ProjectManagement"
+        },
+        {
+          "name": "MobileDevelopment"
+        },
+        {
+          "name": "DigitalWatch"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Gabi",
+      "date": "2019",
+      "content": {
+        "resume": {
+          "titre": "Abstract",
+          "params": [
+            "With all my team, we choosed the theme \"the feminism\". We decided to present this movement like something that everybody is concerned, both men and women, the youngest and the oldest.",
+            "We tell the story of a neutral character with a mixed name: Gabi. Our character, on the website, evolve through different ages, that is, how in 2019 a young girl / young boy and old lady / old man live.",
+            "To illustrate our point of view, we selected datas that we have formatted (graphics) as the subject of the exercise imposed on us: data visualization. To involve the reader, we proposed some questions to think about the different situations and examples that we exposed."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Type",
+            "detail": ["Scool project"]
+          },
+          {
+            "titre": "Team",
+            "detail": ["3 graphic designer • 2 developer"]
+          },
+          {
+            "titre": "Role",
+            "detail": ["Project manager (like all the team) • Web developer"]
+          },
+          {
+            "titre": "Difficulties",
+            "detail": [
+              "Communication between the graphic design team and the development team • Respect for the subject • First use of multi-user github"
+            ]
+          },
+          {
+            "titre": "Achievements",
+            "detail": [
+              "Research / design / production / graphic design in 1 week • Project demonstration"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "GA_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#scss"
+        },
+        {
+          "name": "#javascript"
+        },
+        {
+          "name": "#html"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#FFAB33",
+        "secondaire": "#FE705C",
+        "tertiaire": "#F8F3EC"
+      },
+      "bandeau": [
+        {
+          "name": "WebDevelopment"
+        },
+        {
+          "name": "Mockup"
+        },
+        {
+          "name": "TeamWork"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Alix",
+      "date": "2019-2020",
+      "content": {
+        "resume": {
+          "titre": "Abstract",
+          "params": [
+            "This project is about a new web app for the treatment of deliberations and the generation of couriers for the office of the president of the Savoy departmental council. I started as an intern in the Information Systems Department (Direction des Systèmes d’Informations in French).",
+            "Always accompanied by my apprenticeship master, I analysed the existing solution. That was an old version of Microsoft Access, unusable with Windows 10. I worked to propose a new version, a web solution, which also makes its use simpler, faster, and corresponding to the GDPR standards in force.",
+            "The graphic was not a priority for this project, so I designed a simple interface, with classic icons, and neutral colors."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Type",
+            "detail": ["Professional project"]
+          },
+          {
+            "titre": "Roles",
+            "detail": [
+              "Relation with users • Organization / animation of meetings • Design of data models • Development of the web application • Testing • Users training • Production • Maintenance"
+            ]
+          },
+          {
+            "titre": "Difficulties",
+            "detail": [
+              "Test server management • Transition tortoise svn to git • Contacts with the collaborators of the president's office"
+            ]
+          },
+          {
+            "titre": "Achievements",
+            "detail": [
+              "Autonomous realization of the project • Initiatives taken on the design of the project • Presentation of the project to external people"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "AL_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#laravel"
+        },
+        {
+          "name": "#php"
+        },
+        {
+          "name": "#sql"
+        },
+        {
+          "name": "#bootstrap"
+        },
+        {
+          "name": "#git"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#E8ECED",
+        "secondaire": "#00CAFF",
+        "tertiaire": "#FF543F"
+      },
+      "bandeau": [
+        {
+          "name": "WebDevelopment"
+        },
+        {
+          "name": "ProjectManagement"
+        },
+        {
+          "name": "UsersRelations"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Snated",
+      "date": "2020",
+      "content": {
+        "resume": {
+          "titre": "Abstract",
+          "params": [
+            "When a child seems to be in danger, there is the possibility to call a national number to ask for help. These calls are forwarded to the departments of France, which must study the situations described.",
+            "The exchange of information between SNATED (the National Service for the Telephone Reception of Children in Danger) and the departments is carried out via xml files, which are regularly updated and not necessarily well completed. The difficulty of the agents to study the situations due to the great variation of the data received, hinders their role which is to control the information and to return an evaluation to SNATED.",
+            "So I took an old php application to inspired me and develop it into a web application, making sure to respect the GDPR guidelines (these are very sensitive data) and to facilitate the work of agents, and to make them autonomous.",
+            "I designed a simple and uncluttered interface, with colours taken from the logo of the national number 119. I decided to use a very few icons, but small thumbnails to improve readability, facilitate reading of the data and provide a little human in the project."
+          ]
+        },
+        "details": [
+          {
+            "titre": "Type",
+            "detail": ["Professional project"]
+          },
+          {
+            "titre": "Role",
+            "detail": [
+              "Design of data models • Development of the web application • Testing"
+            ]
+          },
+          {
+            "titre": "Difficulties",
+            "detail": [
+              "Conceive a pleasant design to soften the harshness of the data read by the agents • Self-training on the use of XML files"
+            ]
+          },
+          {
+            "titre": "Achievements",
+            "detail": [
+              "Autonomous realization of the project • Initiatives taken on the design of the project • Compliance with GDPR standards • Skills acquired in the use of XML files (XSD, XSLT ...)"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "SN_",
+        "slide": 1,
+        "title": 2
+      },
+      "techno": [
+        {
+          "name": "#laravel"
+        },
+        {
+          "name": "#php"
+        },
+        {
+          "name": "#sql"
+        },
+        {
+          "name": "#bootstrap"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#FF8E52",
+        "secondaire": "#E2000B",
+        "tertiaire": "#0095AD"
+      },
+      "bandeau": [
+        {
+          "name": "WebDevelopment"
+        },
+        {
+          "name": "Versionning"
+        },
+        {
+          "name": "Documentation"
+        }
+      ]
+    }
+  ],
+  "formations": {
+    "spe": "Specialization",
+    "options": "Options",
+    "slides": [
+      {
+        "id": "3",
+        "name": "Master in Design and Management of Interactive Innovation",
+        "acronym": "MDMII",
+        "years": "In progress",
+        "place": "Annecy",
+        "numberPlace": "74",
+        "organism": "Gobelins school",
+        "logo_id": "FO_2",
+        "specialization": "Technical Lead",
+        "options": "",
+        "complements": [
+          {
+            "name": "Apprenticeship",
+            "content": "Savoie Departmental Council"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Bachelor in Design and Interractional Development",
+        "acronym": "BDID",
+        "years": "2019 - 2020",
+        "place": "Annecy",
+        "numberPlace": "74",
+        "organism": "Gobelins School",
+        "logo_id": "FO_2",
+        "specialization": "Development",
+        "options": "",
+        "complements": [
+          {
+            "name": "Apprenticeship",
+            "content": "Savoie Departmental Council"
+          },
+          {
+            "name": "Projects",
+            "content": "Gabi • Luma"
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "name": "Computer science TUD",
+        "acronym": "TUD",
+        "years": "2017 - 2019",
+        "place": "Annecy",
+        "numberPlace": "74",
+        "organism": "TUI, Savoie Mont-Blanc University",
+        "logo_id": "FO_1",
+        "specialization": "Web development",
+        "options": "Member of the student council",
+        "complements": [
+          {
+            "name": "Traineeship",
+            "content": "Savoie Departmental Council"
+          }
+        ]
+      },
+      {
+        "id": "0",
+        "name": "Baccalaureate",
+        "acronym": "BAC",
+        "years": "2014 - 2017",
+        "place": "Trévoux",
+        "numberPlace": "01",
+        "organism": "Val de Saône high school",
+        "logo_id": "FO_0",
+        "specialization": "Sciences, Physics-Chemistry",
+        "options": "Cinema • ESABAC (French-Italian multinational baccalaureate)",
+        "complements": []
+      }
+    ]
+  },
+  "whoami": [
+    "I was born in Lyon, and today I study in Annecy and I work in Chambéry. I liked the <span class = \"italic opacity \"> mountain </span> straight away, and I stayed. I had the good fortune to visit a few countries in <span class = \"bold \"> Europe </span>, and to go to <span class = \"handwriter \"> California </span>, but I would like to <span class = \"bold opacity \"> travel </span> always more.",
+    "I am sensitive to the <span class = \"opacity handwriter \"> artistic world </span>, and more particularly with the <span class = \"handwriter \"> music </span> and the <span class = \" bold \"> cinema </span>. They are universal and almost borderless means of expression, which allow both to share and to benefit.",
+    "I also support the cause of <span class = \"italic opacity \"> animals </span> and the <span class = \"bold \"> environment </span>, and I defend <span class = \"handwriter \"> values </span> which are important to me.",
+    "I don't have a very precise ambition for my future, except the wish to <span class = \"italic bold \"> evolve </span> regularly in my professional life. The <span class = \"handwriter \"> change </span> doesn't scare me, and I don't want to rely on what I have learned.",
+    "Ah yeah, and my little Rolex cat meows you a <span class = \"opacity \"> hello </span> ☺ "
+  ],
+  "contact": {
+    "mail": {
+      "title": "From email",
+      "content": "contact@amelie-mouillac.fr"
+    },
+    "tel": {
+      "title": "From phone",
+      "content": "07 • 81 • 79 • 53 • 36"
+    },
+    "form": {
+      "inputName": "Name, first name *",
+      "inputMail": "Email *",
+      "inputTopic": "Object *",
+      "inputMessage": "Message *",
+      "formsend": "Send"
+    }
+  },
+  "footer": {
+    "sentence": "See you soon !"
+  }
+}

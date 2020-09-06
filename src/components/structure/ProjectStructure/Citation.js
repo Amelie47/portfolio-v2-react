@@ -1,13 +1,17 @@
 import React from 'react';
 import '../../scss/ProjectStyles/citation.scss';
 
-function Citation({ titre, para, w }) {
-    return (
-        <div className={`Citation Citation-${w}`}>
-            <div className="titre">{titre}</div>
-            <div className="paragraphe"><p>{para}</p></div>
-        </div>
-    );
+function Citation({ titre, params, w }) {
+  return (
+    <div className={`Citation Citation-${w}`}>
+      <div className='titre'>{titre}</div>
+      <div className='paragraphe'>
+        {Object.keys(params).map((v, i) => (
+          <p>{params[i]}</p>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default Citation;

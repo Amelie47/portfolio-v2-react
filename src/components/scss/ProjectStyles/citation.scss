@@ -1,28 +1,33 @@
-@for $i from 1 through 150 { 
-    .Citation-#{$i} {
-      width: 1vw * $i;
-    }
+@for $i from 1 through 150 {
+  .Citation-#{$i} {
+    width: 1vw * $i;
+  }
 }
 
 .Citation {
-    height: fit-content;
-    display: flex;
+  height: fit-content;
+  display: flex;
 
-    .titre {
-        width: 20%;
-        border-right: 1px solid rgba(255,255,255,0.5);
-        font-style: italic;
-        opacity: 0.5;
+  .titre {
+    width: 20%;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    opacity: 0.5;
+  }
+
+  .paragraphe {
+    width: 80%;
+    padding-left: 3vw;
+
+    p {
+      margin: 0;
+      padding-top: 2vh;
+
+      &:first-child {
+        padding-top: 0;
+      }
     }
-
-    .paragraphe {
-        width: 80%;
-        padding-left: 3vw;
-
-        p {
-            margin: 0;
-        }
-    }
+  }
 }
 
 $--breakpoint-min-small-devices: 600px;
@@ -31,20 +36,20 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .Citation {
-        display: block;
-        width: auto;
+  .Citation {
+    display: block;
+    width: auto;
 
-        .titre {
-            width: 100%;
-            border-right: none;
-            font-size: 20pt;
-            margin: 1vh 0;
-        }
-
-        .paragraphe {
-            width: 100%;
-            padding-left: 0;
-        }
+    .titre {
+      width: 100%;
+      border-right: none;
+      font-size: 20pt;
+      margin: 1vh 0;
     }
+
+    .paragraphe {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
 }
