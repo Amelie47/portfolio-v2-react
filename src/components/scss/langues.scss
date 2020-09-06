@@ -1,33 +1,33 @@
 .Langues {
-    position: fixed;
-    top: 7vh;
-    left: 3vw;
+  position: fixed;
+  top: 7vh;
+  left: 3vw;
 
-    ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
 
-        li {
-            list-style: none;
-            position: relative;
-            transition: all ease-in-out 0.1s;
-            margin: 0 5px;
-            padding: 1px;
-            color: rgba(255,255,255, 0.5);
+    li {
+      list-style: none;
+      position: relative;
+      transition: all ease-in-out 0.1s;
+      margin: 0 5px;
+      padding: 1px;
+      color: rgba(255, 255, 255, 0.5);
 
-            &.active {
-                font-weight: bold;
-                color: white;
-            }
+      &.active {
+        font-weight: bold;
+        color: white;
+      }
 
-            &:hover {
-                cursor: crosshair;
-                transform: scale(1.2);
-                font-weight: bold;
-            }
-        }
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        font-weight: bold;
+      }
     }
+  }
 }
 
 $--breakpoint-min-small-devices: 600px;
@@ -36,7 +36,7 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .Langues {
-      display: none;
-    }
+  .Langues {
+    display: none;
+  }
 }

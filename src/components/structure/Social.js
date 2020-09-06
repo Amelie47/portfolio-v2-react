@@ -2,13 +2,18 @@ import React from 'react';
 import '../scss/social.scss';
 import SocialButton from './Social_button';
 
-import datas from '../../ressources/datas/fr.json';
+import getDatas from '../js/Datas';
 
 function Social() {
+  const datas = getDatas();
   return (
-    <div className="Social">
+    <div className='Social'>
       <ul>
-        {Object.keys(datas.social).map((v, i) => <li key={i}><SocialButton social={datas.social} id={i}></SocialButton></li> )}
+        {Object.keys(datas.social).map((v, i) => (
+          <li key={i}>
+            <SocialButton social={datas.social} id={i}></SocialButton>
+          </li>
+        ))}
       </ul>
     </div>
   );

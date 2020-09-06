@@ -2,14 +2,16 @@ import React from 'react';
 
 import '../scss/menu.scss';
 
-import datas from '../../ressources/datas/fr.json';
+import getDatas from '../js/Datas';
 
 function Menu() {
-
+  const datas = getDatas();
   return (
-    <div className="Menu">
+    <div className='Menu'>
       <ul>
-        {Object.keys(datas.titles).map((v,i) => <li key={i}>{datas.titles[i].name.toLowerCase()}</li> )}
+        {Object.keys(datas.titles).map((v, i) => (
+          <li key={i}>{datas.titles[i].name.toLowerCase()}</li>
+        ))}
       </ul>
     </div>
   );

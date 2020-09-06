@@ -11,32 +11,30 @@ import Footer from '../structure/Footer';
 import Langues from '../structure/Langues';
 import Logo from '../structure/Logo';
 
-
 function Root() {
-    return (
-        <div className="Root">
+  return (
+    <div className='Root'>
+      <Langues></Langues>
+      <Logo></Logo>
+      <Menu></Menu>
+      <Social></Social>
+      <Home></Home>
+      <Picture name='mountain' h='50'></Picture>
 
-            <Langues></Langues>
-            <Logo></Logo>
-            <Menu></Menu>
-            <Social></Social>
-            <Home></Home>
-            <Picture name="mountain" h="50"></Picture>
+      <Projets titleid='0'></Projets>
+      <Picture name='paper-triangles' h='20' pos='center'></Picture>
 
-            <Projets titleid="0"></Projets>
-            <Picture name="paper-triangles" h="20" pos="center"></Picture>
+      <Formations titleid='1'></Formations>
+      <Picture name='paper-square' h='20' pos='center'></Picture>
 
-            <Formations titleid="1"></Formations>
-            <Picture name="paper-square" h="20" pos="center"></Picture>
+      <Whoami titleid='2'></Whoami>
+      <Picture name='wall' h='20'></Picture>
 
-            <Whoami titleid="2"></Whoami>
-            <Picture name="wall" h="20"></Picture>
+      <Contact titleid='3'></Contact>
 
-            <Contact titleid="3"></Contact>
-
-            <Footer></Footer>
-        </div>
-    );
+      <Footer></Footer>
+    </div>
+  );
 }
 
 export default Root;
