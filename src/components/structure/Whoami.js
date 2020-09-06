@@ -5,8 +5,8 @@ import portrait from '../../ressources/images/portrait.png';
 import getDatas from '../js/Datas';
 
 function Whoami({ titleid }) {
-  const datas = getDatas();
-  const section = datas.titles.find((element) => element.id === titleid);
+  const datas = getDatas().whoami;
+  const section = getDatas().titles.find((element) => element.id === titleid);
 
   return (
     <div className='Whoami section'>
@@ -17,8 +17,8 @@ function Whoami({ titleid }) {
         <Line name='toDisplayNone'></Line>
         <img src={portrait} alt='portrait' />
         <div className='content'>
-          {Object.keys(datas.whoami).map((v, i) => (
-            <p dangerouslySetInnerHTML={{ __html: datas.whoami[i] }} key={i} />
+          {Object.keys(datas).map((v, i) => (
+            <p dangerouslySetInnerHTML={{ __html: datas[i] }} key={i} />
           ))}
         </div>
       </div>

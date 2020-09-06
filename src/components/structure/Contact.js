@@ -7,8 +7,8 @@ import { init } from 'emailjs-com';
 init('user_7NOlDEXLiVCNQvWtb0N14');
 
 function Contact({ titleid }) {
-  const datas = getDatas();
-  const section = datas.titles.find((element) => element.id === titleid);
+  const section = getDatas().titles.find((element) => element.id === titleid);
+  const datas = getDatas().contact;
 
   return (
     <div className='Contact section'>
@@ -18,9 +18,9 @@ function Contact({ titleid }) {
         <Line></Line>
         <div className='content left-5-vw'>
           <div className='contactMail'>
-            <h2>Par mail</h2>
+            <h2>{datas.mail.title}</h2>
             <div className='mailContent'>
-              <p className='email'>contact@amelie-mouillac.fr</p>
+              <p className='email'>{datas.mail.content}</p>
               <div className='mailForm'>
                 <form className='formSendMail'>
                   <div className='formDivItem'>
@@ -29,7 +29,7 @@ function Contact({ titleid }) {
                       name='name'
                       id='name'
                       required
-                      placeholder='Nom, prénom *'
+                      placeholder={datas.form.inputName}
                     />
                   </div>
                   <div className='formDivItem'>
@@ -38,7 +38,7 @@ function Contact({ titleid }) {
                       name='email'
                       id='email'
                       required
-                      placeholder='Email *'
+                      placeholder={datas.form.inputMail}
                     />
                   </div>
                   <div className='formDivItem'>
@@ -47,7 +47,7 @@ function Contact({ titleid }) {
                       name='object'
                       id='object'
                       required
-                      placeholder='Objet *'
+                      placeholder={datas.form.inputTopic}
                     />
                   </div>
                   <div className='formDivItem'>
@@ -56,19 +56,19 @@ function Contact({ titleid }) {
                       name='story'
                       rows='5'
                       cols='33'
-                      placeholder='Message *'
+                      placeholder={datas.form.inputMessage}
                     />
                   </div>
                   <div className='formDivItem'>
-                    <button type='submit'>Envoyer</button>
+                    <button type='submit'>{datas.form.formsend}</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
           <div className='contactTel'>
-            <h2>Par téléphone</h2>
-            <p>07 • 81 • 79 • 53 • 36</p>
+            <h2>{datas.tel.title}</h2>
+            <p>{datas.tel.content}</p>
           </div>
         </div>
       </div>

@@ -12,8 +12,8 @@ import '../scss/slider-slick.scss';
 import getDatas from '../js/Datas';
 
 function Formations({ titleid }) {
-  const datas = getDatas();
-  const section = datas.titles.find((element) => element.id === titleid);
+  const datas = getDatas().formations;
+  const section = getDatas().titles.find((element) => element.id === titleid);
 
   var settings = {
     dots: true,
@@ -21,7 +21,7 @@ function Formations({ titleid }) {
     infinite: true,
     swipeToSlide: true,
     customPaging: function (i) {
-      return <a>{datas.formations[i].acronym}</a>;
+      return <a>{datas.slides[i].acronym}</a>;
     },
   };
 
@@ -34,9 +34,9 @@ function Formations({ titleid }) {
         <div className='content'>
           {/* CONTENU */}
           <Slider {...settings}>
-            {Object.keys(datas.formations).map((v, i) => (
+            {Object.keys(datas.slides).map((v, i) => (
               <FormationSlide
-                object={datas.formations}
+                object={datas.slides}
                 id={i}
                 key={i}
               ></FormationSlide>

@@ -11,8 +11,8 @@ import '../scss/slider-slick.scss';
 import getDatas from '../js/Datas';
 
 function Projets({ titleid }) {
-  const datas = getDatas();
-  const section = datas.titles.find((element) => element.id === titleid);
+  const datas = getDatas().projects;
+  const section = getDatas().titles.find((element) => element.id === titleid);
 
   var settings = {
     dots: true,
@@ -20,7 +20,7 @@ function Projets({ titleid }) {
     infinite: true,
     swipeToSlide: true,
     customPaging: function (i) {
-      return <a>{datas.projects[i].name}</a>;
+      return <a>{datas[i].name}</a>;
     },
   };
 
@@ -32,8 +32,8 @@ function Projets({ titleid }) {
         <Line></Line>
         <div className='content'>
           <Slider {...settings}>
-            {Object.keys(datas.projects).map((v, i) => (
-              <ProjectSlide object={datas.projects} id={i}></ProjectSlide>
+            {Object.keys(datas).map((v, i) => (
+              <ProjectSlide object={datas} id={i}></ProjectSlide>
             ))}
           </Slider>
         </div>

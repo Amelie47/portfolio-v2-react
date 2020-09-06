@@ -8,19 +8,19 @@ import '../scss/element.scss';
 import getDatas from '../js/Datas';
 
 function Home() {
-  const datas = getDatas();
+  const datas = getDatas().home;
 
   return (
     <div className='Home'>
       <div className='relative left-15-vw top-20-vh'>
-        <p className='overline'>_Hello</p>
-        <h1>Bonjour !</h1>
+        <p className='overline'>{datas.title.overline}</p>
+        <h1>{datas.title.first}</h1>
         <Line></Line>
         <div className='presentation'>
           <ul>
-            <li>Amélie Mouillac</li>
-            {Object.keys(datas.home).map((v, i) => (
-              <li key={i}>{datas.home[i].name}</li>
+            <li>{datas.name}</li>
+            {Object.keys(datas.items).map((v, i) => (
+              <li key={i}>{datas.items[i].name}</li>
             ))}
           </ul>
         </div>

@@ -5,12 +5,12 @@ import '../scss/menu.scss';
 import getDatas from '../js/Datas';
 
 function Menu() {
-  const datas = getDatas();
+  const datas = getDatas().titles;
   return (
     <div className='Menu'>
       <ul>
-        {Object.keys(datas.titles).map((v, i) => (
-          <li key={i}>{datas.titles[i].name.toLowerCase()}</li>
+        {Object.keys(datas).map((v, i) => (
+          <li key={i}>{datas[i].name.toLowerCase()}</li>
         ))}
       </ul>
     </div>

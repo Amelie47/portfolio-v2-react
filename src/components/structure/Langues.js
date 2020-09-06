@@ -1,7 +1,11 @@
 import React from 'react';
 import '../scss/langues.scss';
 
+import getDatas from '../js/Datas';
+
 function Langues() {
+  const datas = getDatas().languages;
+
   window.onload = function () {
     setDefaultActiveLang();
   };
@@ -17,15 +21,11 @@ function Langues() {
   return (
     <div className='Langues'>
       <ul className='langlist'>
-        <li onClick={changeLang} data-lang='fr'>
-          FR
-        </li>
-        <li onClick={changeLang} data-lang='en'>
-          EN
-        </li>
-        <li onClick={changeLang} data-lang='it'>
-          IT
-        </li>
+        {Object.keys(datas).map((v, i) => (
+          <li onClick={changeLang} data-lang={datas[i].dataset}>
+            {datas[i].name}
+          </li>
+        ))}
       </ul>
     </div>
   );
