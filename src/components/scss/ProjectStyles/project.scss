@@ -1,47 +1,49 @@
 .Project {
-    background-color: var(--main-dark-color);
-    min-height: 100vh;
+  background-color: var(--main-dark-color);
+  min-height: 100vh;
 
-    .test {
-        height: 50px;
-        width: 50px;
+  .test {
+    height: 50px;
+    width: 50px;
+  }
+
+  h1 {
+    position: fixed;
+    top: 11vh;
+    left: 3vw;
+    font-size: 15pt;
+
+    &:after {
+      content: ' ';
+      height: 10px;
+      width: 10px;
+      position: absolute;
+      background-color: var(--main-pink-color);
+      border-radius: 50%;
+      top: 50%;
+      margin-left: 10px;
+      transform: translate(0px, -50%);
+      transition: all ease-in-out 0.2s;
     }
+  }
 
-    h1 {
-        position: fixed;
-        top: 11vh;
-        left: 3vw;
-        font-size: 15pt;
+  .Button {
+    position: fixed;
+    top: 16vh;
+    left: 3vw;
+    z-index: 1;
 
-        &:after {
-            content: ' ';
-            height: 10px;
-            width: 10px;
-            position: absolute;
-            background-color: var(--main-pink-color);
-            border-radius: 50%;
-            top: 50%;
-            margin-left: 10px;
-            transform: translate(0px, -50%);
-            transition: all ease-in-out 0.2s;
-        }
+    img {
+      height: 30px;
+      width: 30px;
     }
+  }
 
-    .Button {
-        position: fixed;
-        top: 16vh;
-        left: 3vw;
-        z-index: 1;
-
-        img {
-            height: 30px;
-            width: 30px;
-        }
-    }
-
-    .Langues, .Logo, .Social {
-        z-index: 1;
-    }
+  .Langues,
+  .Logo,
+  .Social {
+    z-index: 1;
+  }
 }
 
 $--breakpoint-min-small-devices: 600px;
@@ -50,18 +52,18 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .Project {
-
-        h1, .Button {
-            left: 7vw;
-        }
-
-        h1 {
-            top: 7vh;
-        }
-
-        .Button {
-            top: 12vh;
-        }
+  .Project {
+    h1,
+    .Button {
+      left: 7vw;
     }
+
+    h1 {
+      top: 7vh;
+    }
+
+    .Button {
+      top: 12vh;
+    }
+  }
 }

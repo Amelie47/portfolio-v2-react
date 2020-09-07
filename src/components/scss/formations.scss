@@ -1,73 +1,71 @@
 .Formations {
-    background-color: var(--main-dark-color);
+  background-color: var(--main-dark-color);
 
-    .FormationSlide {
-        height: var(--height-content);
-        width: var(--width-content);
-        position: relative;
+  .FormationSlide {
+    height: var(--height-content);
+    width: var(--width-content);
+    position: relative;
 
-        .components {
-            height: 100%-10%;
-            width: 100%-10%;
-            border-right: solid 1px white;
-            background-color: rgba(30, 31, 33, 0.3);
-            padding-top: 3vh;
-            margin-left: 2vw;
-            border-radius: 8px 0 0 8px;
-        }
-
-        .component {
-            width: 100%;
-            height: 30px;
-
-            span {
-                opacity: 0.2;
-            }
-            
-            p {
-                padding-right: 10vw;
-                position: absolute;
-                right: 0;
-                font-size: 15pt;
-            }
-    
-            &.date {
-                height: 80px;
-    
-                p {
-                    font-size: 40pt;
-                    opacity: 0.1;
-                    -webkit-text-stroke: 3px;
-                    margin: 0;
-                    padding-top: 3vh;
-                }
-            }
-
-            &.name {
-                p {
-                    font-weight: bold;
-                }
-            }
-
-            &.complements {
-                display: contents;
-            }
-
-            &.image {
-                width: 50%;
-
-                img {
-                    max-width: 8vw;
-                    max-height: 8vh;
-                    position: absolute;
-                    bottom: 5vh;
-                    left: 5vw;
-                }
-            }
-        }
+    .components {
+      height: 100%-10%;
+      width: 100%-10%;
+      border-right: solid 1px white;
+      background-color: rgba(30, 31, 33, 0.3);
+      padding-top: 3vh;
+      margin-left: 2vw;
+      border-radius: 8px 0 0 8px;
     }
 
+    .component {
+      width: 100%;
+      height: 30px;
 
+      span {
+        opacity: 0.2;
+      }
+
+      p {
+        padding-right: 10vw;
+        position: absolute;
+        right: 0;
+        font-size: 15pt;
+      }
+
+      &.date {
+        height: 80px;
+
+        p {
+          font-size: 40pt;
+          opacity: 0.1;
+          -webkit-text-stroke: 3px;
+          margin: 0;
+          padding-top: 3vh;
+        }
+      }
+
+      &.name {
+        p {
+          font-weight: bold;
+        }
+      }
+
+      &.complements {
+        display: contents;
+      }
+
+      &.image {
+        width: 50%;
+
+        img {
+          max-width: 8vw;
+          max-height: 8vh;
+          position: absolute;
+          bottom: 5vh;
+          left: 5vw;
+        }
+      }
+    }
+  }
 }
 
 $--breakpoint-min-small-devices: 600px;
@@ -76,32 +74,63 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .Formations {
+  .Formations {
+    .FormationSlide {
+      height: var(--height-content);
+      width: 100vw;
 
-        .overline {
-            font-size: 30pt !important;
-            font-weight: bolder;
-            top: -4vh !important;
-            left: -5vh !important;
-            -webkit-text-fill-color: rgba(242, 121, 121, 0.3);
-            -webkit-text-stroke-color: rgba(242, 121, 121, 0.3);
-            -webkit-text-stroke-width: 0px;
+      .components {
+        width: 100%;
+        border-right: none;
+        margin-left: 0;
+        border-radius: 0;
+
+        p {
+          font-size: 11pt;
+          text-align: right;
+        }
+      }
+
+      .component {
+        &.name {
+          height: 70px !important;
+          p {
+            font-size: 15pt;
+          }
         }
 
-        .principal_content {
-            top: 12vh;
+        &.image img {
+          max-width: initial;
+          max-height: initial;
+          opacity: 0.015;
         }
-
-        .content {
-            min-height: 70vh;
-            width: 100vw;
-            margin-left: 0;
-            margin-top: 10vh;
-            transform: translate(-15vw, 0px);
-        }
-
-        .Line {
-            display: none;
-        }
+      }
     }
+
+    .overline {
+      font-size: 30pt !important;
+      font-weight: bolder;
+      top: -4vh !important;
+      left: -5vh !important;
+      -webkit-text-fill-color: rgba(242, 121, 121, 0.3);
+      -webkit-text-stroke-color: rgba(242, 121, 121, 0.3);
+      -webkit-text-stroke-width: 0px;
+    }
+
+    .principal_content {
+      top: 12vh;
+    }
+
+    .content {
+      min-height: 70vh;
+      width: 100vw;
+      margin-left: 0;
+      margin-top: 10vh;
+      transform: translate(-15vw, 0px);
+    }
+
+    .Line {
+      display: none;
+    }
+  }
 }

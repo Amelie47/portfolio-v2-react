@@ -22,7 +22,7 @@ function Langues() {
     <div className='Langues'>
       <ul className='langlist'>
         {Object.keys(datas).map((v, i) => (
-          <li onClick={changeLang} data-lang={datas[i].dataset}>
+          <li onClick={changeLang} data-lang={datas[i].dataset} key={i}>
             {datas[i].name}
           </li>
         ))}

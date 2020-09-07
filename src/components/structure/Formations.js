@@ -21,7 +21,7 @@ function Formations({ titleid }) {
     infinite: true,
     swipeToSlide: true,
     customPaging: function (i) {
-      return <a>{datas.slides[i].acronym}</a>;
+      return <button>{datas.slides[i].acronym}</button>;
     },
   };
 

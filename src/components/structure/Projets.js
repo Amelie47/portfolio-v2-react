@@ -20,7 +20,7 @@ function Projets({ titleid }) {
     infinite: true,
     swipeToSlide: true,
     customPaging: function (i) {
-      return <a>{datas[i].name}</a>;
+      return <button>{datas[i].name}</button>;
     },
   };
 
@@ -33,7 +33,7 @@ function Projets({ titleid }) {
         <div className='content'>
           <Slider {...settings}>
             {Object.keys(datas).map((v, i) => (
-              <ProjectSlide object={datas} id={i}></ProjectSlide>
+              <ProjectSlide object={datas} id={i} key={i}></ProjectSlide>
             ))}
           </Slider>
         </div>

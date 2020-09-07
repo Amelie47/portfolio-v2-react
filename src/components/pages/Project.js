@@ -20,9 +20,9 @@ function Project() {
   const project = getDatas().projects.find((element) => element.id === id);
 
   // Couleurs
-  const primaryStyle = { backgroundColor: project.couleurs.primaire };
-  const secondaryStyle = { backgroundColor: project.couleurs.secondaire };
-  const thirdStyle = { backgroundColor: project.couleurs.tertiaire };
+  // const primaryStyle = { backgroundColor: project.couleurs.primaire };
+  // const secondaryStyle = { backgroundColor: project.couleurs.secondaire };
+  // const thirdStyle = { backgroundColor: project.couleurs.tertiaire };
 
   return (
     <div className='Project'>

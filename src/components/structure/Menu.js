@@ -3,8 +3,10 @@ import React from 'react';
 import '../scss/menu.scss';
 
 import getDatas from '../js/Datas';
+import setMenu from '../js/Menu';
 
 function Menu() {
+  setMenu();
   const datas = getDatas().titles;
   return (
     <div className='Menu'>
