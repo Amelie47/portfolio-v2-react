@@ -12,7 +12,10 @@ import Langues from '../structure/Langues';
 import Logo from '../structure/Logo';
 import '../scss/root.scss';
 
+import onload from '../js/Onload';
+
 function Root() {
+  onload();
   return (
     <div className='Root'>
       <Langues></Langues>
