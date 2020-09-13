@@ -3,22 +3,26 @@
     {
       "id": "0",
       "name": "Progetti",
-      "overline": "_Creatività"
+      "overline": "_Creatività",
+      "section_id": "pr"
     },
     {
       "id": "1",
       "name": "Formazione",
-      "overline": "_Scoperti"
+      "overline": "_Scoperti",
+      "section_id": "fo"
     },
     {
       "id": "2",
       "name": "Whoami",
-      "overline": "_Io_sono..."
+      "overline": "_Io_sono...",
+      "section_id": "wh"
     },
     {
       "id": "3",
       "name": "Contatti",
-      "overline": "_Manteniamo_il_contatto"
+      "overline": "_Manteniamo_il_contatto",
+      "section_id": "co"
     }
   ],
   "social": {
@@ -307,8 +311,7 @@
           "params": [
             "Quando un bambino sembra essere in pericolo, è possibile chiamare un numero nazionale univoco per chiedere aiuto. Questi inviti vengono inoltrati ai dipartimenti francesi responsabili dello studio delle situazioni descritte.",
             "Lo scambio di informazioni tra SNATED (il Servizio Nazionale per l'Accoglienza Telefonica dei Bambini a Rischio) ed i dipartimenti avviene tramite file xml, regolarmente aggiornati e più o meno completi. La difficoltà degli agenti nello studio delle situazioni a causa della grande variazione dei dati ricevuti, ostacola il loro ruolo che è quello di controllare le informazioni e restituire una valutazione a SNATED.",
-            "Ho quindi preso una vecchia applicazione in php per riformularla in un'applicazione web, assicurandomi di rispettare le linee guida GDPR (si tratta di dati molto sensibili) e per facilitare il lavoro degli agenti, e per renderli autonomi.",
-            "Ho progettato un'interfaccia abbastanza semplice e ordinata, con colori ripresi dal logo del numero nazionale 119. Ho deciso di mettere poche icone, ma piccole miniature per migliorare la leggibilità, facilitare la lettura dei dati e portare un po 'di umano al progetto."
+            "Ho quindi preso una vecchia applicazione in php per riformularla in un'applicazione web, assicurandomi di rispettare le linee guida GDPR (si tratta di dati molto sensibili) e per facilitare il lavoro degli agenti, e per renderli autonomi."
           ]
         },
         "details": [

@@ -3,22 +3,26 @@
     {
       "id": "0",
       "name": "Projects",
-      "overline": "_Creativity"
+      "overline": "_Creativity",
+      "section_id": "pr"
     },
     {
       "id": "1",
       "name": "Training",
-      "overline": "_Discoveries"
+      "overline": "_Discoveries",
+      "section_id": "fo"
     },
     {
       "id": "2",
       "name": "Whoami",
-      "overline": "_I_Am..."
+      "overline": "_I_Am...",
+      "section_id": "wh"
     },
     {
       "id": "3",
       "name": "Contact",
-      "overline": "_Stay_in_touch"
+      "overline": "_Stay_in_touch",
+      "section_id": "co"
     }
   ],
   "social": {
@@ -307,8 +311,7 @@
           "params": [
             "When a child seems to be in danger, there is the possibility to call a national number to ask for help. These calls are forwarded to the departments of France, which must study the situations described.",
             "The exchange of information between SNATED (the National Service for the Telephone Reception of Children in Danger) and the departments is carried out via xml files, which are regularly updated and not necessarily well completed. The difficulty of the agents to study the situations due to the great variation of the data received, hinders their role which is to control the information and to return an evaluation to SNATED.",
-            "So I took an old php application to inspired me and develop it into a web application, making sure to respect the GDPR guidelines (these are very sensitive data) and to facilitate the work of agents, and to make them autonomous.",
-            "I designed a simple and uncluttered interface, with colours taken from the logo of the national number 119. I decided to use a very few icons, but small thumbnails to improve readability, facilitate reading of the data and provide a little human in the project."
+            "So I took an old php application to inspired me and develop it into a web application, making sure to respect the GDPR guidelines (these are very sensitive data) and to facilitate the work of agents, and to make them autonomous."
           ]
         },
         "details": [

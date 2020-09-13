@@ -9,7 +9,8 @@ function Whoami({ titleid }) {
   const section = getDatas().titles.find((element) => element.id === titleid);
 
   return (
-    <div className='Whoami section'>
+    <div className='Whoami section' id={section.section_id}>
+      <Line h='10' left='15-vw'></Line>
       <Line h='30' right='50-vw'></Line>
       <div className='principal_content relative left-15-vw top-20-vh'>
         <p className='overline'>{section.overline}</p>

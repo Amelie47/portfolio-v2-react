@@ -3,22 +3,26 @@
     {
       "id": "0",
       "name": "Projets",
-      "overline": "_Créativité"
+      "overline": "_Créativité",
+      "section_id": "pr"
     },
     {
       "id": "1",
       "name": "Formations",
-      "overline": "_Découvertes"
+      "overline": "_Découvertes",
+      "section_id": "fo"
     },
     {
       "id": "2",
       "name": "Whoami",
-      "overline": "_Je_suis..."
+      "overline": "_Je_suis...",
+      "section_id": "wh"
     },
     {
       "id": "3",
       "name": "Contact",
-      "overline": "_Gardons_le_contact"
+      "overline": "_Gardons_le_contact",
+      "section_id": "co"
     }
   ],
   "social": {
@@ -311,8 +315,7 @@
           "params": [
             "Lorsqu’un enfant semble être en danger, il est possible d’appeler un numéro national unique pour demander de l’aide. Ces appels sont retransmis aux départements de France qui sont chargés d’étudier les situations décrites.",
             "Les échanges d’informations entre le SNATED (le Service National de l’Accueil Téléphonique des Enfants en Danger) et les départements se fait via des fichiers xml, régulièrement mis à jour, et plus ou moins complets. La difficulté des agents à étudier les situations du fait de la grande variation des données reçues, entrave leur rôle qui est de contrôler les informations et de retourner une évaluation au SNATED.",
-            "J’ai donc repris une ancienne application en php pour le reformaliser en application Web, en veillant à respecter les indications RGPD (ce sont des données très sensibles) et à faciliter le travail des agents, et à les rendre autonomes.",
-            "J’ai conçu une interface assez simple et épurée, avec des couleurs issues du logo du numéro national 119. J’ai pris le parti de mettre peu d’icônes, mais des petites vignettes pour améliorer la lisibilité, faciliter la lecture des données et apporter un peu d’humain dans le projet."
+            "J’ai donc repris une ancienne application en php pour le reformaliser en application Web, en veillant à respecter les indications RGPD (ce sont des données très sensibles) et à faciliter le travail des agents, et à les rendre autonomes."
           ]
         },
         "details": [

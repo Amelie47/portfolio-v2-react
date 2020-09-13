@@ -26,7 +26,8 @@ function Formations({ titleid }) {
   };
 
   return (
-    <div className='Formations section'>
+    <div className='Formations section' id={section.section_id}>
+      <Line h='10' left='15-vw'></Line>
       <div className='principal_content relative left-15-vw top-20-vh'>
         <p className='overline'>{section.overline}</p>
         <h1>{section.name}</h1>
