@@ -1,14 +1,14 @@
 .SectionResume {
-    height: 100vh;
-    position: relative;
-    z-index: 0;
+  height: 50vh;
+  position: relative;
+  z-index: 0;
 
-    .Citation {
-        position: absolute;
-        left: 40%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
+  .Citation {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 $--breakpoint-min-small-devices: 600px;
@@ -17,11 +17,9 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .SectionResume {
-
-        .Citation {
-            top: 45%;
-        }
-
+  .SectionResume {
+    .Citation {
+      top: 45%;
     }
+  }
 }

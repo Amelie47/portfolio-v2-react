@@ -1,0 +1,163 @@
+.Pattern1 {
+  .images-container {
+    // background-color: orange;
+    height: 30vh;
+    width: 40vw;
+    margin: auto;
+    transform: translateY(40vh);
+
+    &:hover .image,
+    .unactive {
+      filter: grayscale(100%) opacity(5%);
+    }
+
+    .image {
+      height: 30vh;
+      width: fit-content;
+      position: absolute;
+      transition: 0.3s all;
+
+      &:not(.unactive):hover {
+        cursor: pointer;
+        filter: none !important;
+        z-index: 10;
+        transform: scale(1.1);
+      }
+
+      img {
+        height: 100%;
+      }
+
+      &.active {
+        transform: scale(1.8);
+        filter: none !important;
+        z-index: 10 !important;
+
+        .imageTitle {
+          // font-size: 9pt;
+          opacity: 0;
+        }
+
+        &:hover {
+          transform: scale(1.85);
+        }
+      }
+
+      .imageTitle {
+        margin: 0;
+        width: fit-content;
+        position: absolute;
+        font-style: italic;
+        opacity: 0.5;
+        transition: 0.3s all;
+      }
+    }
+
+    #image1 {
+      //   background-color: red;
+      top: -15vh;
+      right: -5vh;
+
+      .imageTitle {
+        top: -3vh;
+        left: 10vh;
+      }
+    }
+    #image2 {
+      //   background-color: blue;
+      right: -15vh;
+      bottom: -5vh;
+
+      .imageTitle {
+        right: -5vh;
+        bottom: -3vh;
+      }
+    }
+    #image3 {
+      //   background-color: green;
+      bottom: -15vh;
+      left: -5vh;
+
+      .imageTitle {
+        bottom: -3vh;
+        left: 10vh;
+      }
+    }
+    #image4 {
+      //   background-color: yellow;
+      top: -5vh;
+      left: -15vh;
+
+      .imageTitle {
+        left: 5vh;
+        top: -3vh;
+      }
+    }
+  }
+
+  .comments-container {
+    background-color: orchid;
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+
+    top: 0;
+
+    .comment {
+      position: absolute;
+      transition: 0.5s ease all;
+      left: -100vw;
+      width: 40vw;
+
+      .commentTitle {
+        font-weight: bold;
+        margin-right: 2vh;
+      }
+    }
+
+    #comment1 {
+      top: 70vh;
+
+      &.active {
+        left: 40vw;
+      }
+    }
+    #comment2 {
+      top: 90vh;
+
+      &.active {
+        left: 45vw;
+      }
+    }
+    #comment3 {
+      top: 100vh;
+
+      &.active {
+        left: 20vw;
+      }
+    }
+    #comment4 {
+      top: 80vh;
+
+      &.active {
+        left: 15vw;
+      }
+    }
+  }
+}
+
+$--breakpoint-min-small-devices: 600px;
+$--breakpoint-min-medium-devices: 768px;
+$--breakpoint-min-regular-devices: 992px;
+$--breakpoint-min-large-devices: 1200px;
+
+@media screen and (max-width: $--breakpoint-min-large-devices) {
+  .Pattern1 {
+    .images-container .image.active {
+      transform: scale(1.4);
+      &:hover {
+        transform: scale(1.45);
+      }
+    }
+  }
+}

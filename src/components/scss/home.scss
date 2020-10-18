@@ -1,43 +1,67 @@
 .Home {
-    background-color: var(--main-dark-color);
-    min-height: 100vh;
+  background-color: var(--main-dark-color);
+  min-height: 100vh;
 
-    h1 {
-        font-family: secondary-font;
-        font-weight: lighter;
-        font-size: 30pt;
-    }
+  h1 {
+    font-family: secondary-font;
+    font-weight: lighter;
+    font-size: 30pt;
+  }
 
-    .presentation {
-        position: relative;
-        left: 3vw;
-        top: 8vh;
+  .presentation {
+    position: relative;
+    left: 3vw;
+    top: 8vh;
 
-        ul {
-            padding: 0;
-    
-            li {
-                list-style: none;
-                font-size: 15pt;
+    ul {
+      padding: 0;
 
-                &:first-child {
-                    font-weight: bold;
-                    font-size: 20pt;
-                }
-            }
+      li {
+        list-style: none;
+        font-size: 15pt;
+
+        a {
+          text-decoration: none;
+          color: white;
+
+          &:before {
+            content: ' ';
+            height: 5px;
+            width: 5px;
+            background-color: red;
+            border-radius: 50%;
+            opacity: 1;
+          }
+
+          //   &:hover {
+          //     &:before {
+          //       opacity: 1;
+          //     }
+          //   }
+
+          img {
+            height: 15px;
+            margin: 2vh 1vw 0 0;
+          }
         }
-    }
 
-    .Button {
-        position: absolute;
-        bottom: 8vh;
-        left: 50%;
-        transform: translate(-50%, 0px);
-        
-        display: none;
+        &:first-child {
+          font-weight: bold;
+          font-size: 20pt;
+        }
+      }
     }
+  }
+
+  .Button {
+    position: absolute;
+    bottom: 8vh;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+    display: none;
+  }
 }
-
 
 $--breakpoint-min-small-devices: 600px;
 $--breakpoint-min-medium-devices: 768px;
@@ -45,35 +69,40 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .Home {
-        padding-top: 14vh;
+  .Home {
+    padding-top: 14vh;
 
-        #toDisplayNone {
-            display: none;
-        }
-
-        .Logo {
-            left: 50vw;
-            position: absolute;
-
-            img {
-                height: 100px;
-                transform: translate(-50%, 0px);
-            }
-        }
-
-        .Button {
-            display: block;
-        }
-      
+    ul {
+      max-width: 90%;
+      li a {
+        display: none;
+      }
     }
+
+    #toDisplayNone {
+      display: none;
+    }
+
+    .Logo {
+      left: 50vw;
+      position: absolute;
+
+      img {
+        height: 100px;
+        transform: translate(-50%, 0px);
+      }
+    }
+
+    .Button {
+      display: block;
+    }
+  }
 }
 
 @media screen and (max-width: $--breakpoint-min-large-devices) {
-    .Home {
-        #toDisplayNone {
-            left: 71vw !important;
-        }      
+  .Home {
+    #toDisplayNone {
+      left: 71vw !important;
     }
+  }
 }
-  

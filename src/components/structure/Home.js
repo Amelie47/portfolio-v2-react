@@ -7,6 +7,9 @@ import '../scss/element.scss';
 
 import getDatas from '../js/Datas';
 
+import cv from '../../ressources/images/cv/20200913.pdf';
+import dnl from '../../ressources/images/dnl.png';
+
 function Home() {
   const datas = getDatas().home;
 
@@ -22,6 +25,12 @@ function Home() {
             {Object.keys(datas.items).map((v, i) => (
               <li key={i}>{datas.items[i].name}</li>
             ))}
+            <li>
+              <a href={cv} target='blank' download>
+                <img src={dnl} alt='download button img' />
+                Mon cv
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -269,7 +269,36 @@
       "images": {
         "code": "AL_",
         "slide": 1,
-        "title": 2
+        "title": 2,
+        "screens": {
+          "firstScreenSection": {
+            "pattern": 1,
+            "images": [
+              {
+                "id": 3,
+                "title": "vue des réunions",
+                "legende": [
+                  "Ici, une vue permettant de visualiser les différentes réunions à venir."
+                ]
+              },
+              {
+                "id": 4,
+                "title": "vue des décisions",
+                "legende": ["vue des décisions"]
+              },
+              {
+                "id": 6,
+                "title": "vue des aides",
+                "legende": ["vue des aides"]
+              },
+              {
+                "id": 7,
+                "title": "vue des utilisateurs",
+                "legende": ["vue des utilisateurs"]
+              }
+            ]
+          }
+        }
       },
       "techno": [
         {
@@ -346,7 +375,36 @@
       "images": {
         "code": "SN_",
         "slide": 1,
-        "title": 2
+        "title": 2,
+        "screens": {
+          "firstScreenSection": {
+            "pattern": 1,
+            "images": [
+              {
+                "id": 3,
+                "title": "Evaluation des Ip",
+                "legende": [
+                  "Ici, une vue permettant d'évaluer les Ip en complétant un formulaire dynamque de bdd."
+                ]
+              },
+              {
+                "id": 4,
+                "title": "Informations des Ip",
+                "legende": ["Informations des Ip"]
+              },
+              {
+                "id": 5,
+                "title": "Liste des Ip",
+                "legende": ["Liste des Ip"]
+              },
+              {
+                "id": 8,
+                "title": "Alertes",
+                "legende": ["Alertes"]
+              }
+            ]
+          }
+        }
       },
       "techno": [
         {

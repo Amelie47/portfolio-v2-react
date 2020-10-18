@@ -1,22 +1,22 @@
 .SectionDetails {
-    height: 100vh;
-    position: relative;
-    z-index: 0;
+  height: 80vh;
+  position: relative;
+  z-index: 0;
 
-    .citations {
-        position: absolute;
-        left: 40%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+  .citations {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
-        .Citation {
-            .paragraphe {
-                padding-bottom: 3vh;
-            }
+    .Citation {
+      .paragraphe {
+        padding-bottom: 3vh;
+      }
 
-            &:last-child .paragraphe {
-                padding-bottom: 0;
-            }
-        }
+      &:last-child .paragraphe {
+        padding-bottom: 0;
+      }
     }
+  }
 }

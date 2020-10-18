@@ -49,7 +49,20 @@ $--breakpoint-min-large-devices: 1200px;
 
     .paragraphe {
       width: 100%;
-      padding-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $--breakpoint-min-regular-devices) {
+  @for $i from 1 through 150 {
+    .Citation-#{$i} {
+      width: 2vw * $i;
+    }
+  }
+
+  .Citation {
+    .titre {
+      margin-left: 3vh;
     }
   }
 }

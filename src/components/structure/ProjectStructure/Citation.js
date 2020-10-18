@@ -7,7 +7,7 @@ function Citation({ titre, params, w }) {
       <div className='titre'>{titre}</div>
       <div className='paragraphe'>
         {Object.keys(params).map((v, i) => (
-          <p>{params[i]}</p>
+          <p key={i}>{params[i]}</p>
         ))}
       </div>
     </div>
