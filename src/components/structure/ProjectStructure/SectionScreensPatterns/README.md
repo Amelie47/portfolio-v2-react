@@ -8,7 +8,9 @@
 | **MEDIA**: Type          | Images    |
 | **MEDIA**: Nombre        | 4         |
 | **MEDIA**: Format        | Desktop   |
+| **MEDIA**: Titre         | Oui       |
 | **LEGENDE**: Présence    | Oui       |
+| **LEGENDE**: Titre       | Oui       |
 | **LEGENDE**: Taille      | Courte    |
 
 
