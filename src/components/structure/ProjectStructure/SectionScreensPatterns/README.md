@@ -7,7 +7,7 @@
 | Responsive               | Oui       |
 | **MEDIA**: Type          | Images    |
 | **MEDIA**: Nombre        | 4         |
-| **MEDIA**: Format        |           |
+| **MEDIA**: Format        | Desktop   |
 | **LEGENDE**: Présence    | Oui       |
 | **LEGENDE**: Taille      | Courte    |
 
