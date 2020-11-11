@@ -12,7 +12,6 @@ function Contact({ titleid }) {
 
   return (
     <div className='Contact section' id={section.section_id}>
-      <Line h='10' left='15-vw'></Line>
       <div className='principal_content relative left-15-vw top-20-vh'>
         <p className='overline'>{section.overline}</p>
         <h1>{section.name}</h1>

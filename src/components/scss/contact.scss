@@ -54,7 +54,6 @@
               input,
               textarea,
               button {
-                // border-radius: 5px;
                 padding: 12px;
                 margin-top: 1vh;
                 width: 100%;
@@ -68,22 +67,43 @@
               }
 
               button {
-                border: solid rgba(30, 31, 33, 0.3) 1px;
-                background: transparent;
+                border: solid var(--dark-30) 1px;
+                background: none;
                 font-style: italic;
                 text-align: end;
+                padding: 0 10px;
+                height: 47px;
+                position: relative;
+                overflow: hidden;
+                transition: 0.1s;
+
+                &:after {
+                  content: ' ';
+                  position: absolute;
+                  height: 47px;
+                  width: 0;
+                  left: -10%;
+                  bottom: 0;
+                  background-color: var(--main-pink-color);
+                  transition: 0.5s ease all;
+                  transform: skewX(15deg);
+                }
 
                 &:hover {
                   cursor: pointer;
-                  background: #f24b59;
-                  border-color: #f24b59;
+                  border: solid var(--main-pink-color) 1px;
+
+                  &:after {
+                    width: 80%;
+                  }
                 }
               }
 
               input,
               textarea {
                 border: none;
-                background-color: rgba(30, 31, 33, 0.3);
+                border-left: 5px var(--main-pink-color) solid;
+                background-color: var(--dark-30);
 
                 &::-webkit-input-placeholder {
                   font-family: main-font;
@@ -130,8 +150,8 @@ $--breakpoint-min-large-devices: 1200px;
       font-weight: bolder;
       top: -4vh !important;
       left: -5vh !important;
-      -webkit-text-fill-color: rgba(242, 121, 121, 0.3);
-      -webkit-text-stroke-color: rgba(242, 121, 121, 0.3);
+      -webkit-text-fill-color: var(--main-pinky-color-30);
+      -webkit-text-stroke-color: var(--main-pinky-color-30);
       -webkit-text-stroke-width: 0px;
     }
 

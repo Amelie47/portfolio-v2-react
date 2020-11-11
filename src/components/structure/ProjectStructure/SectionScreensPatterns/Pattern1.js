@@ -3,6 +3,7 @@ import Citation from '../Citation';
 
 import '../../../scss/ProjectStyles/Patterns/pattern1.scss';
 import Images from '../../../../ressources/images/imagesProjects';
+import backArrow from '../../../../ressources/images/button.png';
 
 function Pattern1({ imageCode, projectScreenSectionImages }) {
   return (
@@ -50,10 +51,12 @@ function PatternCommentComponent({ imageObject, index }) {
         id={'comment' + (index + 1)}
         data-image={index + 1}
       >
-        <p>
-          <span className='commentTitle'>{imageObject.title}</span>
-          {imageObject.legende}
-        </p>
+        <img src={backArrow} alt='' className='back' />
+
+        <div className='commentContent'>
+          <p className='commentTitle'>{imageObject.title}</p>
+          <p>{imageObject.legende}</p>
+        </div>
       </div>
     </div>
   );

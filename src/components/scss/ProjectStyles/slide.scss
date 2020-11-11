@@ -1,3 +1,11 @@
+.slick-active .ProjectSlide .component.image {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slide-slick:not(.slick-active) .ProjectSlide .component.image {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
 .ProjectSlide {
   height: var(--height-content);
   width: var(--width-content);
@@ -32,8 +40,8 @@
       transform: translate(0, -50%);
       height: fit-content;
       max-height: 60%;
-      // overflow: hidden;
       border-bottom: 3px solid white;
+      transition: all ease 0.3s;
 
       img {
         height: 100%;
@@ -72,7 +80,7 @@ $--breakpoint-min-large-devices: 1200px;
     height: var(--height-content);
     width: 100vw;
 
-    background: rgba(150, 217, 217, 0.05);
+    background: var(--main-cold-color-05);
 
     .component {
       &.date p {

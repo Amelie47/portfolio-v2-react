@@ -1,5 +1,19 @@
 .SectionScreens {
-    height: 100vh;
-    position: relative;
-    z-index: 0;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+$--breakpoint-min-small-devices: 600px;
+$--breakpoint-min-medium-devices: 768px;
+$--breakpoint-min-regular-devices: 992px;
+$--breakpoint-min-large-devices: 1200px;
+
+@media screen and (max-width: $--breakpoint-min-large-devices) {
+  .SectionScreens {
+    height: 150vh;
+
+    display: flex;
+    align-items: center;
+  }
 }

@@ -1,60 +1,47 @@
 .ProjectTitle {
-    height: 100vh;
+  height: 100vh;
 
-    .project-title-content {
-        height: 50vh;
-        width: 36vw;
-        position: relative;
-        margin: auto;
-        transform: translate(0px, 50%);
-        z-index: 1;
+  .project-title-content {
+    height: 50vh;
+    width: 36vw;
+    position: relative;
+    margin: auto;
+    transform: translate(0px, 50%);
+    z-index: 1;
+  }
+
+  .component {
+    position: relative;
+
+    &.date {
+      p {
+        margin: 0;
+      }
     }
 
-    .component {
-        position: relative;
-
-        &.date {
-            // height: 20%;
-
-            p {
-                margin: 0;
-            }
-        }
-
-        &.image {
-            // top: 50%;
-            // transform: translate(0, -50%);
-            // height: fit-content;
-            // max-height: 60%;
-            // overflow: hidden;
-
-            img {
-                width: 100%;
-                box-shadow: -9px 10px 10px 0px rgba(0,0,0,0.75);
-            }
-        }
-
-        &.techno {
-            // bottom: 0;
-            // height: 20%;
-            // right: 0;
-
-            ul {
-                display: flex;
-                padding: 0;
-                margin: 0;
-                float: right;
-
-                li {
-                    text-decoration: none;
-                    list-style: none;
-                    margin-left: 10px;
-                }
-            }
-        }
+    &.image {
+      img {
+        width: 100%;
+        box-shadow: -9px 10px 10px 0px rgba(0, 0, 0, 0.75);
+      }
     }
+
+    &.techno {
+      ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        float: right;
+
+        li {
+          text-decoration: none;
+          list-style: none;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
 }
-
 
 $--breakpoint-min-small-devices: 600px;
 $--breakpoint-min-medium-devices: 768px;
@@ -62,29 +49,30 @@ $--breakpoint-min-regular-devices: 992px;
 $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-regular-devices) {
-    .ProjectTitle {
-        .project-title-content {
-            width: 60vw;
-        }
+  .ProjectTitle {
+    .project-title-content {
+      width: 60vw;
     }
+  }
 }
 
 @media screen and (max-width: $--breakpoint-min-small-devices) {
-    .ProjectTitle {
-        .project-title-content {
-            width: 100vw;
-        }
-
-        .component {
-            &.date p, &.techno ul {
-                padding: 1vh 3vw;
-            }
-
-            &.image {
-                img {
-                    box-shadow: none;
-                }
-            }
-        }
+  .ProjectTitle {
+    .project-title-content {
+      width: 100vw;
     }
+
+    .component {
+      &.date p,
+      &.techno ul {
+        padding: 1vh 3vw;
+      }
+
+      &.image {
+        img {
+          box-shadow: none;
+        }
+      }
+    }
+  }
 }

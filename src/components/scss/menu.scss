@@ -23,8 +23,8 @@
         position: absolute;
         background: -webkit-linear-gradient(
           left,
-          rgba(242, 75, 89, 1) 0%,
-          rgba(242, 230, 206, 1) 100%
+          var(--main-pink-color) 0%,
+          var(--main-light-color) 100%
         );
         left: -20%;
         z-index: -1;

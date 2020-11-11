@@ -24,21 +24,6 @@
           text-decoration: none;
           color: white;
 
-          &:before {
-            content: ' ';
-            height: 5px;
-            width: 5px;
-            background-color: red;
-            border-radius: 50%;
-            opacity: 1;
-          }
-
-          //   &:hover {
-          //     &:before {
-          //       opacity: 1;
-          //     }
-          //   }
-
           img {
             height: 15px;
             margin: 2vh 1vw 0 0;

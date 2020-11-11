@@ -2,6 +2,7 @@ function pattern1() {
   console.log('pattern 1');
 
   let imagesComponents = document.querySelectorAll('.PatternImageComponent');
+  let backArrows = document.querySelectorAll('.back');
   let imagesDiv = [];
   let activeElement = document.querySelector('.image.active');
 
@@ -16,7 +17,8 @@ function pattern1() {
   for (let i = 0; i < imagesComponents.length; i++) {
     const element = imagesComponents[i];
     const imageDiv = element.querySelector('.image');
-    element.addEventListener('click', (event) => {
+    element.addEventListener('click', () => {
+      console.log("clicked");
       if (activeElement == null) {
         unsetClassAll(imagesDiv, 'active');
         setClassAll(imagesDiv, 'unactive');
@@ -33,16 +35,27 @@ function pattern1() {
   }
 
   // Enlève la classe active et retour à la normale
-  window.addEventListener('click', function (e) {
-    if (e.target.dataset.tag != 'img-tag' && activeElement != null) {
-      unsetClassAll(imagesDiv, 'active');
-      unsetClassAll(imagesDiv, 'unactive');
-      let commentId = activeElement.dataset.target;
-      let commentElement = document.querySelector('#comment' + commentId);
-      unsetClass(commentElement, 'active');
-      activeElement = document.querySelector('.image.active');
-    }
-  });
+  for (let i = 0; i < backArrows.length; i++) {
+    const back = backArrows[i];
+    back.addEventListener("click", (e) => {
+      if (e.target.dataset.tag != 'img-tag' && activeElement != null) {
+        backToAll();
+      }
+    })
+  }
+  activeElement.addEventListener("click", () => {
+    backToAll();
+  })
+  
+}
+
+function backToAll() {
+  unsetClassAll(imagesDiv, 'active');
+  unsetClassAll(imagesDiv, 'unactive');
+  let commentId = activeElement.dataset.target;
+  let commentElement = document.querySelector('#comment' + commentId);
+  unsetClass(commentElement, 'active');
+  activeElement = document.querySelector('.image.active');
 }
 
 function setClass(element, classname) {

@@ -1,12 +1,14 @@
 import setMenu from '../js/Menu';
-import pattern1 from '../js/projectPattern/pattern1';
+import Pattern1 from './patterns/Pattern1';
 
 function onLoad() {
-  window.onload = function () {
+  document.addEventListener('DOMContentLoaded', () => {
     initActiveLanguage();
     setMenu();
-    pattern1();
-  };
+
+    let pattern = new Pattern1();
+    pattern.launch();
+  });
 
   function initActiveLanguage() {
     let langlist = document.querySelector('.langlist');

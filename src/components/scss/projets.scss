@@ -13,7 +13,7 @@ $--breakpoint-min-large-devices: 1200px;
       display: block;
       border-top: 1px white solid;
       padding-top: 20px;
-      background-color: rgba(30, 31, 33, 0.3);
+      background-color: var(--dark-30);
       height: 50%;
     }
 
@@ -22,8 +22,8 @@ $--breakpoint-min-large-devices: 1200px;
       font-weight: bolder;
       top: -4vh !important;
       left: -5vh !important;
-      -webkit-text-fill-color: rgba(242, 121, 121, 0.3);
-      -webkit-text-stroke-color: rgba(242, 121, 121, 0.3);
+      -webkit-text-fill-color: var(--main-pinky-color-30);
+      -webkit-text-stroke-color: var(--main-pinky-color-30);
       -webkit-text-stroke-width: 0px;
     }
 

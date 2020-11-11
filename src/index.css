@@ -8,6 +8,11 @@
   --main-light-color: #f2e6ce;
   --main-cold-color: #96d9d9;
 
+  --dark: #1e1f21;
+  --dark-30: rgba(30, 31, 33, 0.3);
+  --main-pinky-color-30: rgba(242, 121, 121, 0.3);
+  --main-cold-color-05: rgba(150, 217, 217, 0.05);
+
   --height-content: 55vh;
   --width-content: 64vw;
 
@@ -18,14 +23,14 @@
 }
 
 @font-face {
-  font-family: secondary-font;
-  src: url('./ressources/fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf');
+  font-family: main-font;
+  src: url('./ressources/fonts/Red_Hat_Text/RedHatText-Regular.ttf');
   font-weight: lighter;
 }
 
 @font-face {
-  font-family: main-font;
-  src: url('./ressources/fonts/Red_Hat_Text/RedHatText-Regular.ttf');
+  font-family: secondary-font;
+  src: url('./ressources/fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf');
   font-weight: lighter;
 }
 

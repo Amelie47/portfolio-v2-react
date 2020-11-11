@@ -33,6 +33,11 @@
         filter: none !important;
         z-index: 10 !important;
 
+        right: 0 !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+
         .imageTitle {
           // font-size: 9pt;
           opacity: 0;
@@ -96,7 +101,6 @@
   }
 
   .comments-container {
-    background-color: orchid;
     height: fit-content;
     width: 100%;
     position: absolute;
@@ -108,39 +112,36 @@
       transition: 0.5s ease all;
       left: -100vw;
       width: 40vw;
+      display: flex;
+      align-items: center;
 
-      .commentTitle {
-        font-weight: bold;
-        margin-right: 2vh;
+      top: 85vh;
+
+      .commentContent {
+        display: flex;
       }
-    }
-
-    #comment1 {
-      top: 70vh;
-
-      &.active {
-        left: 40vw;
-      }
-    }
-    #comment2 {
-      top: 90vh;
-
-      &.active {
-        left: 45vw;
-      }
-    }
-    #comment3 {
-      top: 100vh;
 
       &.active {
         left: 20vw;
       }
-    }
-    #comment4 {
-      top: 80vh;
 
-      &.active {
-        left: 15vw;
+      .back {
+        height: 30px;
+        transform: rotate(90deg);
+        margin-right: 20px;
+        margin-left: 5px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          cursor: pointer;
+          margin-left: 0;
+          margin-right: 25px;
+        }
+      }
+
+      .commentTitle {
+        font-weight: bold;
+        margin-right: 2vh;
       }
     }
   }
@@ -153,10 +154,68 @@ $--breakpoint-min-large-devices: 1200px;
 
 @media screen and (max-width: $--breakpoint-min-large-devices) {
   .Pattern1 {
-    .images-container .image.active {
-      transform: scale(1.4);
-      &:hover {
-        transform: scale(1.45);
+    height: 100vh;
+    position: relative;
+
+    .images-container {
+      margin: 0;
+      transform: none;
+
+      .PatternImageComponent {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+
+        .image {
+          position: initial;
+          height: 25vh;
+
+          top: auto !important;
+          right: auto !important;
+          bottom: auto !important;
+          left: auto !important;
+
+          .imageTitle {
+            display: none;
+          }
+
+          &:not(.unactive):hover {
+            transform: none;
+            z-index: -1;
+          }
+
+          &.active {
+            transform: none;
+
+            &:hover {
+              transform: none;
+            }
+          }
+        }
+      }
+    }
+
+    .comments-container {
+      width: auto;
+      z-index: 10;
+
+      .comment {
+        position: initial;
+        left: -100vw;
+        height: 25vh;
+        background-color: var(--main-dark-color);
+        width: 0;
+        overflow: hidden;
+
+        border-right: var(--main-pink-color) solid 1vw;
+
+        .commentContent {
+          display: initial;
+        }
+
+        &.active {
+          width: 99vw;
+        }
       }
     }
   }
