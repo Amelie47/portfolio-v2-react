@@ -11,18 +11,5 @@
 | **LEGENDE**: Présence    | Oui       |
 | **LEGENDE**: Taille      | Courte    |
 
-### Exemple pattern1
 
-![pattern1 responsive](/src/ressources/images/patterns/pattern1/pattern1.png)
-
-### Exemple pattern1 responsive
-
-![pattern1 responsive](/src/ressources/images/patterns/pattern1/pattern1-responsive.png)
-
-### Exemple pattern1 active
-
-![pattern1 active](/src/ressources/images/patterns/pattern1/pattern1-active.png)
-
-### Exemple pattern1 responsive active
-
-![pattern1 responsive active](/src/ressources/images/patterns/pattern1/pattern1-responsive-active.png)
+[Exemples](https://github.com/Amelie47/portfolio-v2-react/tree/develop/src/ressources/images/patterns/pattern1)
