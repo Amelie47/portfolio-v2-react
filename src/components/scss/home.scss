@@ -1,5 +1,5 @@
 .Home {
-  background-color: var(--main-dark-color);
+  background-color: var(--main-bg-color);
   min-height: 100vh;
 
   h1 {
@@ -22,11 +22,17 @@
 
         a {
           text-decoration: none;
-          color: white;
+          color: var(--main-text-color);
+          display: flex;
+          align-items: center;
 
-          img {
+          .dnlImage {
+            background: var(--home-dnl-image-src);
+            background-size: cover;
+            background-position: center;
             height: 15px;
-            margin: 2vh 1vw 0 0;
+            width: 15px;
+            margin-right: 1vw;
           }
         }
 

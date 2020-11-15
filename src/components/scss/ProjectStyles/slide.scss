@@ -13,7 +13,7 @@
 
   a {
     text-decoration: none;
-    color: white;
+    color: var(--main-text-color);
   }
 
   .component {
@@ -40,7 +40,7 @@
       transform: translate(0, -50%);
       height: fit-content;
       max-height: 60%;
-      border-bottom: 3px solid white;
+      border-bottom: 3px solid var(--project-slide-bottomline-color);
       transition: all ease 0.3s;
 
       img {

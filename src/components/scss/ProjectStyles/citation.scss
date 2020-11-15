@@ -10,7 +10,7 @@
 
   .titre {
     width: 20%;
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid var(--project-citation-line-color);
     font-style: italic;
     opacity: 0.5;
   }

@@ -17,7 +17,7 @@
       width: auto;
       line-height: 0;
       display: block;
-      color: white;
+      color: var(--main-text-color);
       border: 0;
       outline: none;
       background: transparent;
@@ -48,7 +48,7 @@
       height: 10px;
       width: 10px;
       position: absolute;
-      background-color: var(--main-pink-color);
+      background-color: var(--main-color);
       border-radius: 50%;
       bottom: -15px;
       left: 50%;
@@ -64,8 +64,7 @@
 }
 
 .slick-arrow {
-  background: url('../../ressources/images/button_without_border.png') center
-    center no-repeat !important;
+  background: var(--project-arrow-image-src) center center no-repeat !important;
   background-size: cover !important;
   height: 50px;
   width: 50px;

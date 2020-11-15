@@ -1,11 +1,11 @@
-@for $i from 1 through 150 { 
-    .Line-#{$i} {
-      height: 1vh * $i;
-    }
+@for $i from 1 through 150 {
+  .Line-#{$i} {
+    height: 1vh * $i;
+  }
 }
 
 .Line {
-  background-color: var(--line-color);
+  background-color: var(--main-line-color);
   position: absolute;
 }
 
@@ -19,9 +19,9 @@
 }
 
 .Line-shadow-top {
-  box-shadow: 0px -5px 14px 1px black
+  box-shadow: 0px -5px 14px 1px black;
 }
 
 .Line-shadow-bottom {
-  box-shadow: 0px 5px 14px 1px black
+  box-shadow: 0px 5px 14px 1px black;
 }

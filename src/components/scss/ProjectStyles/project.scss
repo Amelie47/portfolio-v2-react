@@ -1,5 +1,5 @@
 .Project {
-  background-color: var(--main-dark-color);
+  background-color: var(--main-bg-color);
   min-height: 100vh;
 
   .test {
@@ -18,7 +18,7 @@
       height: 10px;
       width: 10px;
       position: absolute;
-      background-color: var(--main-pink-color);
+      background-color: var(--main-color);
       border-radius: 50%;
       top: 50%;
       margin-left: 10px;

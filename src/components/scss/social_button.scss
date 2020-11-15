@@ -3,19 +3,23 @@
 
   a {
     text-decoration: none;
-    color: white;
+    color: var(--main-text-color);
 
     transition: all ease-in-out 0.2s;
 
     .circle {
       height: 20px;
       width: 20px;
-      background-color: white;
+      background-color: var(--social-color);
       border-radius: 50%;
       position: absolute;
       transform: translate(-50%, 0px);
       top: 17px;
       transition: all ease-in-out 0.2s;
+    }
+
+    .Line {
+      background-color: var(--social-color) !important;
     }
 
     img {

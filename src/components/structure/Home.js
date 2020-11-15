@@ -8,13 +8,29 @@ import '../scss/element.scss';
 import getDatas from '../js/Datas';
 
 import cv from '../../ressources/images/cv/20200913.pdf';
-import dnl from '../../ressources/images/dnl.png';
 
 function Home() {
   const datas = getDatas().home;
 
+  // const changeTheme = (e) => {
+  //   e.preventDefault();
+  //   localStorage.setItem('theme', e.target.dataset.theme);
+  //   // let theme = new Theme();
+  //   // theme.setThemeStyle();
+  //   // window.location.reload();
+  // };
+
   return (
     <div className='Home'>
+      {/* <ul>
+        <li onClick={changeTheme} data-theme='th1' key='1'>
+          theme1
+        </li>
+        <li onClick={changeTheme} data-theme='th2' key='2'>
+          theme2
+        </li>
+      </ul> */}
+
       <div className='relative left-15-vw top-20-vh'>
         <p className='overline'>{datas.title.overline}</p>
         <h1>{datas.title.first}</h1>
@@ -27,8 +43,8 @@ function Home() {
             ))}
             <li>
               <a href={cv} target='blank' download>
-                <img src={dnl} alt='download button img' />
-                Mon cv
+                <div className='dnlImage'></div>
+                <p>Mon cv</p>
               </a>
             </li>
           </ul>

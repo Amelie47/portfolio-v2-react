@@ -1,26 +1,23 @@
+import initActiveLanguage from '../js/Lang';
 import setMenu from '../js/Menu';
 import Pattern1 from './patterns/Pattern1';
+// import Theme from './Theme';
 
 function onLoad() {
   document.addEventListener('DOMContentLoaded', () => {
     initActiveLanguage();
     setMenu();
 
+    // let theme = new Theme();
+    // theme.launch();
+
     let pattern = new Pattern1();
     pattern.launch();
-  });
 
-  function initActiveLanguage() {
-    let langlist = document.querySelector('.langlist');
-    if (langlist != null) {
-      const items = langlist.children;
-      let lang = localStorage.getItem('lang') || 'fr';
-      console.log(lang);
-      for (var i = 0; i < items.length; i++) {
-        if (items[i].dataset.lang === lang) items[i].className = 'active';
-      }
-    }
-  }
+    window.onstorage = () => {
+      console.log(localStorage.getItem('theme'));
+    };
+  });
 }
 
 export default onLoad;

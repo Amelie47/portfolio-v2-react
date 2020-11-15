@@ -1,11 +1,15 @@
 import React from 'react';
 import '../scss/button.scss';
-import img from '../../ressources/images/button_without_border.png';
+import getImage from '../js/Image';
 
-function Button({url=img, rotate="bas", anime, shadow}) {
+function Button({ url = getImage(), rotate = 'bas', anime, shadow }) {
   return (
-    <div className="Button">
-        <img src={img} className={`Button-rotate-${rotate} Button-${anime} Button-shadow-${shadow}`} alt="button img"></img>
+    <div className='Button'>
+      <img
+        src={url}
+        className={`Button-rotate-${rotate} Button-${anime} Button-shadow-${shadow}`}
+        alt='button img'
+      ></img>
     </div>
   );
 }

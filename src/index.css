@@ -1,20 +1,26 @@
 /* VARIABLES */
 * {
-  --main-dark-color: #3b3c40;
-  --main-text-color: white;
-  --line-color: white;
-  --main-pinky-color: #f27979;
-  --main-pink-color: #f24b59;
-  --main-light-color: #f2e6ce;
-  --main-cold-color: #96d9d9;
-
-  --dark: #1e1f21;
-  --dark-30: rgba(30, 31, 33, 0.3);
-  --main-pinky-color-30: rgba(242, 121, 121, 0.3);
-  --main-cold-color-05: rgba(150, 217, 217, 0.05);
+  /* rgba(59, 60, 64, 1); */
+  --dark: #3b3c40;
+  /* rgba(255,255,255,1) */
+  --white: white;
+  /* rgba(242,75,89,1) */
+  --pink: #f24b59;
+  /* rgba(242,121,121,1) */
+  --light-pink: #f27979;
+  /* rgba(150,217,217,1) */
+  --blue: #96d9d9;
+  /* rgba(242,230,206,1) */
+  --little-yellow: #f2e6ce;
+  /* rgba(104, 150, 150, 1) */
+  --bg-opacity: #689696;
 
   --height-content: 55vh;
   --width-content: 64vw;
+
+  --social-color: var(--white);
+
+  --project-slide-bottomline-color: var(--white);
 
   --breakpoint-min-small-devices: 600px;
   --breakpoint-min-medium-devices: 768px;
@@ -48,6 +54,13 @@ body {
   font-family: main-font;
 }
 
+p,
+li,
+h1,
+h2 {
+  color: var(--main-text-color);
+}
+
 h1 {
   margin-top: 0;
 }
@@ -58,10 +71,10 @@ h1 {
 }
 
 .overline {
-  color: var(--main-pink-color);
+  color: var(--main-color);
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--main-pink-color);
+  -webkit-text-stroke-color: var(--main-color);
   font-size: 95pt;
   margin: 0;
   position: absolute;
@@ -90,16 +103,16 @@ h1 {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: #1e1f21;
+  background: var(--dark);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--main-pinky-color);
-  border-right: #f24b59 solid 3px;
+  background: var(--secondary-color);
+  border-right: var(--main-color) solid 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--main-cold-color);
-  border-right: #a69897 solid 3px;
+  background: var(--tertiary-color);
+  border-right: var(--secondary-color) solid 3px;
   cursor: default !important;
 }

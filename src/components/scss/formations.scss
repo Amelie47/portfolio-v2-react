@@ -1,5 +1,5 @@
 .Formations {
-  background-color: var(--main-dark-color);
+  background-color: var(--main-bg-color);
 
   .FormationSlide {
     height: var(--height-content);
@@ -9,8 +9,8 @@
     .container {
       height: 100%-10%;
       width: 100%-10%;
-      border-right: solid 1px white;
-      background-color: var(--dark-30);
+      border-right: solid 1px var(--main-line-color);
+      background-color: var(--bg-opacity-30);
       padding-top: 3vh;
       margin-left: 2vw;
       border-radius: 8px 0 0 8px;
@@ -28,7 +28,7 @@
           margin-right: 3vw;
 
           span {
-            opacity: 0.2;
+            opacity: var(--formations-span-opcaity);
           }
 
           p {
@@ -39,7 +39,7 @@
 
           &.date p {
             font-size: 40pt;
-            opacity: 0.1;
+            opacity: var(--formations-span-opcaity);
             -webkit-text-stroke: 3px;
           }
 
@@ -59,7 +59,7 @@
       }
 
       .image {
-        opacity: 0.05;
+        opacity: var(--formations-logo-opcaity);
         filter: blur(1px);
 
         img {
@@ -118,8 +118,8 @@ $--breakpoint-min-large-devices: 1200px;
       font-weight: bolder;
       top: -4vh !important;
       left: -5vh !important;
-      -webkit-text-fill-color: var(--main-pinky-color-30);
-      -webkit-text-stroke-color: var(--main-pinky-color-30);
+      -webkit-text-fill-color: var(--secondary-color-30);
+      -webkit-text-stroke-color: var(--secondary-color-30);
       -webkit-text-stroke-width: 0px;
     }
 

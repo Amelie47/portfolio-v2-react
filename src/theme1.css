@@ -1,0 +1,24 @@
+/* VARIABLES */
+* {
+  --main-bg-color: var(--dark);
+  --main-text-color: var(--white);
+  --secondary-text-color: var(--white);
+  --main-line-color: var(--white);
+  --secondary-color: var(--light-pink);
+  --main-color: var(--pink);
+  --main-light-color: var(--little-yellow);
+  --tertiary-color: var(--blue);
+
+  --bg-opacity-30: rgba(30, 31, 33, 0.3);
+  --secondary-color-30: rgba(242, 121, 121, 0.3);
+  --tertiary-color-05: rgba(150, 217, 217, 0.05);
+  --main-text-color-50: rgba(255, 255, 255, 0.5);
+
+  --formations-logo-opcaity: 0.05;
+  --formations-span-opcaity: 0.2;
+
+  --home-dnl-image-src: url('./ressources/images/dnl_th1.png');
+
+  --project-arrow-image-src: url('./ressources/images/arrow_th1.png');
+  --project-citation-line-color: rgba(255, 255, 255, 0.5);
+}
