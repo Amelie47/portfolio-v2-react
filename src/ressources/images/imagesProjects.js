@@ -23,6 +23,9 @@ import snated_picture6_alerts from './projets/Snated/screens/snated_screen_alert
 
 import indico from './projets/indico_slide.png';
 import indicotitle from './projets/indico_title_v1.png';
+import indicoschemaFr from './projets/Indico/screens/fr.png';
+import indicoschemaEn from './projets/Indico/screens/en.png';
+import indicoschemaIt from './projets/Indico/screens/it.png';
 
 const gabi_images = [
   { code: 'GA_1', src: gabi, name: 'gabi', description: 'gabi image slide' },
@@ -149,6 +152,12 @@ const indico_images = [
     name: 'indicotitle',
     description: 'indicotitle image slide',
   },
+  {
+    code: 'IN_3',
+    src: getImageFromLang(indicoschemaEn, indicoschemaFr, indicoschemaIt),
+    name: 'indicoschema',
+    description: 'indicoschema image slide',
+  },
 ];
 
 const images = gabi_images.concat(
@@ -159,3 +168,16 @@ const images = gabi_images.concat(
 );
 
 export default images;
+
+function getImageFromLang(enFile, frFile, itFile) {
+  const lang = localStorage.getItem('lang') || 'fr';
+
+  switch (lang) {
+    case 'en':
+      return enFile;
+    case 'it':
+      return itFile;
+    default:
+      return frFile;
+  }
+}

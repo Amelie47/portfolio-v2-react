@@ -122,8 +122,16 @@
         "title": 2,
         "screens": {
           "firstScreenSection": {
-            "pattern": 1,
-            "images": []
+            "pattern": 2,
+            "images": [
+              {
+                "id": 3,
+                "title": "schema",
+                "legende": [
+                  "Ici, un schema"
+                ]
+              }
+            ]
           }
         }
       },

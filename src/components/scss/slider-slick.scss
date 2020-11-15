@@ -44,17 +44,15 @@
         inset -1px -1px 3px rgba(255, 255, 255, 0.1);
     }
 
-    &:after {
+    .dots-after {
       content: ' ';
       height: 10px;
       width: 10px;
       position: absolute;
-      background-color: var(--main-color);
       border-radius: 50%;
       bottom: -15px;
       left: 50%;
       transform: translate(-50%, 0px);
-      transition: all ease-in-out 0.2s;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     }
   }

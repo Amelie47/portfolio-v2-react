@@ -20,7 +20,15 @@ function Projets({ titleid }) {
     infinite: true,
     swipeToSlide: true,
     customPaging: function (i) {
-      return <button>{datas[i].name}</button>;
+      return (
+        <button>
+          {datas[i].name}
+          <div
+            className='dots-after'
+            style={{ backgroundColor: datas[i].couleurs.primaire }}
+          ></div>
+        </button>
+      );
     },
   };
 

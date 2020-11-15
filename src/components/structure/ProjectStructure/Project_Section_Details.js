@@ -2,7 +2,7 @@ import React from 'react';
 import '../../scss/ProjectStyles/section_details.scss';
 import Citation from './Citation';
 
-function SectionDetails({ details }) {
+function SectionDetails({ details, colors }) {
   return (
     <div className='SectionDetails'>
       <div className='citations'>
@@ -11,6 +11,7 @@ function SectionDetails({ details }) {
             titre={details[i].titre}
             params={details[i].detail}
             w='40'
+            color={colors.primaire}
             key={i}
           ></Citation>
         ))}

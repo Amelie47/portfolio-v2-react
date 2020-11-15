@@ -31,7 +31,7 @@ function Project() {
   }
 
   // Couleurs
-  // const primaryStyle = { backgroundColor: project.couleurs.primaire };
+  const primaryStyle = { backgroundColor: project.couleurs.primaire };
   // const secondaryStyle = { backgroundColor: project.couleurs.secondaire };
   // const thirdStyle = { backgroundColor: project.couleurs.tertiaire };
 
@@ -41,18 +41,28 @@ function Project() {
       <Logo></Logo>
       <Social></Social>
 
-      <h1>{project.name}</h1>
+      <h1>
+        {project.name}
+        <div style={primaryStyle} className='title-after' />
+      </h1>
+
       <Link to={`/`} onClick={back}>
         <Button rotate='gauche' shadow='true'></Button>
       </Link>
 
       <ProjectTitle project={project}></ProjectTitle>
-      <SectionResume resume={project.content.resume}></SectionResume>
+      <SectionResume
+        resume={project.content.resume}
+        colors={project.couleurs}
+      ></SectionResume>
       <SectionScreens
         imageCode={project.images.code}
         projectScreenSection={project.images.screens.firstScreenSection}
       ></SectionScreens>
-      <SectionDetails details={project.content.details}></SectionDetails>
+      <SectionDetails
+        details={project.content.details}
+        colors={project.couleurs}
+      ></SectionDetails>
     </div>
   );
 }
