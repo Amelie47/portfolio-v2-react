@@ -33,7 +33,11 @@ function Projets({ titleid }) {
         <div className='content'>
           <Slider {...settings}>
             {Object.keys(datas).map((v, i) => (
-              <ProjectSlide object={datas} id={i} key={i}></ProjectSlide>
+              <ProjectSlide
+                object={datas[i]}
+                id={datas[i].id}
+                key={i}
+              ></ProjectSlide>
             ))}
           </Slider>
         </div>

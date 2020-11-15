@@ -21,6 +21,9 @@ import snated_picture4_param from './projets/Snated/screens/snated_screen_param.
 import snated_picture5_users from './projets/Snated/screens/snated_screen_users.png';
 import snated_picture6_alerts from './projets/Snated/screens/snated_screen_alerts.png';
 
+import indico from './projets/indico_slide.png';
+import indicotitle from './projets/indico_title_v1.png';
+
 const gabi_images = [
   { code: 'GA_1', src: gabi, name: 'gabi', description: 'gabi image slide' },
   {
@@ -133,6 +136,26 @@ const snated_images = [
   },
 ];
 
-const images = gabi_images.concat(luma_images, alix_images, snated_images);
+const indico_images = [
+  {
+    code: 'IN_1',
+    src: indico,
+    name: 'indico',
+    description: 'indico image slide',
+  },
+  {
+    code: 'IN_2',
+    src: indicotitle,
+    name: 'indicotitle',
+    description: 'indicotitle image slide',
+  },
+];
+
+const images = gabi_images.concat(
+  luma_images,
+  alix_images,
+  snated_images,
+  indico_images
+);
 
 export default images;

@@ -8,22 +8,22 @@ import { setScrollPosition } from '../../js/Scroll';
 
 function ProjectSlide({ object, id }) {
   const image = Images.find(
-    (x) => x.code === object[id].images.code + object[id].images.slide
+    (x) => x.code === object.images.code + object.images.slide
   );
 
   return (
     <div className='ProjectSlide'>
       <Link to={`/project/${id}`} onClick={setScrollPosition}>
         <div className='component date'>
-          <p>{object[id].date}</p>
+          <p>{object.date}</p>
         </div>
         <div className='component image'>
           <img src={image.src} alt={image.description} />
         </div>
         <div className='component techno'>
           <ul>
-            {Object.keys(object[id].techno).map((v, i) => (
-              <li key={i}>{object[id].techno[i].name}</li>
+            {Object.keys(object.techno).map((v, i) => (
+              <li key={i}>{object.techno[i].name}</li>
             ))}
           </ul>
         </div>

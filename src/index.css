@@ -30,14 +30,17 @@
 
 @font-face {
   font-family: main-font;
-  src: url('./ressources/fonts/Red_Hat_Text/RedHatText-Regular.ttf');
-  font-weight: lighter;
+  src: url('./ressources/fonts/Titillium_Web/TitilliumWeb-Light.ttf');
 }
 
 @font-face {
   font-family: secondary-font;
-  src: url('./ressources/fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf');
-  font-weight: lighter;
+  src: url('./ressources/fonts/Over_the_Rainbow/OvertheRainbow-Regular.ttf');
+}
+
+@font-face {
+  font-family: tertiary-font;
+  src: url('./ressources/fonts/Red_Hat_Text/RedHatText-Regular.ttf');
 }
 
 html {
@@ -63,6 +66,7 @@ h2 {
 
 h1 {
   margin-top: 0;
+  font-family: secondary-font;
 }
 
 .relative {
@@ -72,6 +76,7 @@ h1 {
 
 .overline {
   color: var(--main-color);
+  font-family: tertiary-font;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--main-color);

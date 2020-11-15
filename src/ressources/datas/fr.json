@@ -76,6 +76,89 @@
   ],
   "projects": [
     {
+      "id": "4",
+      "name": "Indico",
+      "date": "2020",
+      "content": {
+        "resume": {
+          "titre": "Résumé",
+          "params": [
+            "Ce projet a été réalisé pour la fin d'année de Bachelor, aux Gobelins. Le thème était la \"mémoire\".",
+            "Nous devions utiliser les drones blablabla"
+          ]
+        },
+        "details": [
+          {
+            "titre": "Type",
+            "detail": ["Projet scolaire"]
+          },
+          {
+            "titre": "Equipe",
+            "detail": ["2 designers • 2 développeurs"]
+          },
+          {
+            "titre": "Rôle",
+            "detail": [
+              "Chef de projet (au même titre que toute l'équipe) • Développeuse mobile • Développeuse web • Développeuse drone & robots"
+            ]
+          },
+          {
+            "titre": "Difficultés",
+            "detail": [
+              "Recherche du concept • Communication (confinement) • Autoformation sur les technologies des drones et robots"
+            ]
+          },
+          {
+            "titre": "Réussites",
+            "detail": [
+              "Concept innovant et réalisable • Mise en place de l'ambiance et l'univers • Démonstration finale"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "code": "IN_",
+        "slide": 1,
+        "title": 2,
+        "screens": {
+          "firstScreenSection": {
+            "pattern": 1,
+            "images": []
+          }
+        }
+      },
+      "techno": [
+        {
+          "name": "#swift"
+        },
+        {
+          "name": "#web"
+        },
+        {
+          "name": "#nodeJs"
+        },
+        {
+          "name": "#github"
+        }
+      ],
+      "couleurs": {
+        "primaire": "#6085F3",
+        "secondaire": "#134BF2",
+        "tertiaire": "#112FD9"
+      },
+      "bandeau": [
+        {
+          "name": "ObjetsConnectes"
+        },
+        {
+          "name": "Drones&Robots"
+        },
+        {
+          "name": "VeilleDigitale"
+        }
+      ]
+    },
+    {
       "id": "0",
       "name": "Luma",
       "date": "2020",
@@ -120,7 +203,13 @@
       "images": {
         "code": "LU_",
         "slide": 1,
-        "title": 2
+        "title": 2,
+        "screens": {
+          "firstScreenSection": {
+            "pattern": 1,
+            "images": []
+          }
+        }
       },
       "techno": [
         {
@@ -137,9 +226,9 @@
         }
       ],
       "couleurs": {
-        "primaire": "#00D1C5",
-        "secondaire": "#F21D52",
-        "tertiaire": "#FFAC3D"
+        "primaire": "#04D9C4",
+        "secondaire": "#F21D56",
+        "tertiaire": "#F2F2F2"
       },
       "bandeau": [
         {
@@ -198,7 +287,13 @@
       "images": {
         "code": "GA_",
         "slide": 1,
-        "title": 2
+        "title": 2,
+        "screens": {
+          "firstScreenSection": {
+            "pattern": 1,
+            "images": []
+          }
+        }
       },
       "techno": [
         {
@@ -212,9 +307,9 @@
         }
       ],
       "couleurs": {
-        "primaire": "#FFAB33",
-        "secondaire": "#FE705C",
-        "tertiaire": "#F8F3EC"
+        "primaire": "#F29B30",
+        "secondaire": "#F2695C",
+        "tertiaire": "#F2EEE9"
       },
       "bandeau": [
         {
@@ -318,9 +413,9 @@
         }
       ],
       "couleurs": {
-        "primaire": "#E8ECED",
-        "secondaire": "#00CAFF",
-        "tertiaire": "#FF543F"
+        "primaire": "#B8BABF",
+        "secondaire": "#949AA6",
+        "tertiaire": "#5C6273"
       },
       "bandeau": [
         {
@@ -378,7 +473,7 @@
         "title": 2,
         "screens": {
           "firstScreenSection": {
-            "pattern": 1,
+            "pattern": 2,
             "images": [
               {
                 "id": 3,
@@ -421,9 +516,9 @@
         }
       ],
       "couleurs": {
-        "primaire": "#FF8E52",
-        "secondaire": "#E2000B",
-        "tertiaire": "#0095AD"
+        "primaire": "#F28705",
+        "secondaire": "#049DD9",
+        "tertiaire": "#D90416"
       },
       "bandeau": [
         {
